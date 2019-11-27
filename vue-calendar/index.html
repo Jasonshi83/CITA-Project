@@ -10,7 +10,7 @@
   <body>
     <h1>Calendar Title</h1>
     <div id='app'>
-      <v-calendar></v-calendar>
+      <v-calendar   v-model='date' :min-date='new Date()' is-inline></v-calendar>
       <!-- <v-date-picker :mode='mode' v-model='selectedDate' /> -->
     </div>
 
