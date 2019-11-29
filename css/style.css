@@ -1,21 +1,30 @@
 /* import font */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&display=swap');
+
+/* body */
+.container{
+    font-family: Montserrat,sans-serif;
+    max-width: 1200px;
+}
 
 /* navbar */
 .navbar {
-  max-width: 1250px;
+  max-width: 1200px;
   margin: 0 auto;
   height: 5.25rem;
-}
-.navbar-nav{
-  margin-top: 20px;
+  background-color: #fff;
+  padding: 0px;
 }
 .logo {
   max-height: 40px;
 }
 .nav-item{
-  padding: 0px 32px;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 20px;
 }
+.navbar-expand-lg .navbar-nav .links,
 .navbar-expand-lg .navbar-nav .nav-link{
   font-family: Montserrat,sans-serif;
   font-weight: 500;
@@ -23,13 +32,15 @@
   letter-spacing: .5px;
   line-height: 1.25;
   color: #2f3133;
-  padding: 32px 0px;
+  padding: 15px 0px;
+  padding-bottom: 32px;
   border-bottom: 2px solid #fff;
+  border: none;
 }
 .navbar-expand-lg .navbar-nav .current{
   border-bottom: 2px solid #ee6445;
 }
-.navbar-expand-lg .navbar-nav .nav-link:hover{
+.navbar-expand-lg .navbar-nav .links:hover{
   color: #2f3133;
   border-bottom: 2px solid #ee6445;
   transition: all .3s ease-out;
@@ -37,9 +48,135 @@
 .nav-link img{
   max-width: 32px;
   border-radius: 50%;
+  margin-top: -5px;
 }
 
-.row{
+.navbar-toggler{
+  border: none;
+}
+
+/* body */
+.row-body{
   margin-top: 200px;
   background-color: pink;
+}
+
+/* footer */
+footer{
+  color: #fff;
+  background-color: #2f3133;
+  font-family: Source Sans Pro,sans-serif;
+}
+footer .col-2 p a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-wrap{
+    padding: 64px 24px;
+    padding-top: 9px;
+}
+footer .row{
+  /* background-color: coral; */
+  font-size: 15px;
+}
+footer .logo-white img{
+  width: 155px;
+  height: 43px;
+  margin-bottom: 24px;
+}
+.footer-title{
+  font-size: 15px;
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+.content,
+.content a{
+  font-size: 13px;
+}
+.footer-menu p{
+  font-size: 12px;
+}
+.row-side{
+  margin-top: 55px;
+}
+footer .button{
+  text-align: center;
+}
+footer .button p a{
+  text-align: center;
+  display: inline-block;
+  width: 124px;
+  background-color: #008ffe;
+  border-radius: 5px 5px;
+  padding: 5px 0px;
+  color: #fff;
+  text-decoration: none;
+}
+footer .button p a:hover{
+  background-color: #80c8ff;
+  transition: all 0.3s ease-in;
+}
+.site-map .footer-title{
+  font-size: 14px;
+}
+.site-map  .content{
+  font-size: 12px;
+}
+footer .site-map,
+footer .social{
+  font-size: 14px;
+}
+footer .site-map p a,
+footer .social p a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 15px;
+  width: 28px;
+  text-align: center;
+  text-decoration: none;
+  margin: 1px 1px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #45bbff;
+}
+
+.fa-facebook {
+  background: #fff;
+  color: #2f3133;
+}
+
+.fa-twitter {
+  background: #fff;
+  color: #2f3133;
+}
+
+.fa-linkedin {
+  background: #fff;
+  color: #2f3133;
+}
+
+.fa-youtube {
+  background: #fff;
+  color: #2f3133;
+}
+
+.fa-instagram {
+  background: #fff;
+  color: #2f3133;
+}
+
+footer .QR-code img{
+  width: 88px;
+  height: 88px;
+}
+footer .copyright{
+  font-size: 14px;
 }
