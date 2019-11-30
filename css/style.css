@@ -12,9 +12,12 @@
 .navbar {
   max-width: 1200px;
   margin: 0 auto;
-  height: 5.25rem;
+  height: 8.25rem;
   background-color: #fff;
   padding: 0px;
+  position: fixed;
+  padding-top: 10px;
+  padding-bottom: 39px;
 }
 .logo {
   max-height: 40px;
@@ -23,6 +26,10 @@
   padding-left: 28px;
   padding-right: 28px;
   padding-top: 20px;
+}
+.navbar-nav{
+    margin-top: 25px;
+    float: right;
 }
 .navbar-expand-lg .navbar-nav .links,
 .navbar-expand-lg .navbar-nav .nav-link{
@@ -58,7 +65,43 @@
 /* body */
 .row-body{
   margin-top: 200px;
-  background-color: pink;
+  /* background-color: pink; */
+  height: 800px;
+  border-radius: 10px 10px;
+  position: relative;
+  border: 2px solid #f2f2f2;
+  padding: 20px 0px;
+  margin-bottom: 60px;
+}
+.row-body .profile{
+  text-align: center;
+}
+.row-body .profile img{
+  width: 130px;
+  border-radius: 50%;
+  position: relative;
+  margin-top: -77px;
+}
+
+.row-body .sub-content{
+  margin: 0px 40px;
+  margin-top: 40px;
+}
+
+.row-body .content-1,
+.row-body .content-2{
+  margin-top: 60px;
+  text-align: left;
+}
+
+/* calendar */
+#menu{
+  text-align: center;
+}
+
+/* event */
+.card{
+  margin-top: 20px;
 }
 
 /* footer */
@@ -73,7 +116,7 @@ footer .col-2 p a{
 }
 .footer-wrap{
     padding: 64px 24px;
-    padding-top: 9px;
+    padding-top: 25px;
 }
 footer .row{
   /* background-color: coral; */
@@ -102,6 +145,9 @@ footer .logo-white img{
 footer .button{
   text-align: center;
 }
+footer .button p{
+  margin: 0 0 20px;
+}
 footer .button p a{
   text-align: center;
   display: inline-block;
@@ -129,13 +175,14 @@ footer .social{
 footer .site-map p a,
 footer .social p a{
   color: #fff;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 .fa {
   padding: 5px;
   font-size: 15px;
-  width: 28px;
+  width: 25px;
+  height: 25px;
   text-align: center;
   text-decoration: none;
   margin: 1px 1px;
