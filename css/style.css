@@ -227,3 +227,16 @@ footer .QR-code img{
 footer .copyright{
   font-size: 14px;
 }
+
+/* responsive */
+@media only screen and (max-width: 992px) {
+  footer .row .row-side {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .footer-bottom {
+    margin-top: 35px;
+    text-align: center;
+  }
+}
