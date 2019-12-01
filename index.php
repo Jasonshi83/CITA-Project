@@ -84,34 +84,25 @@
             </div>
 
 
-            //connect to database by jason 2019.12.1
+            //Connect to database by jason 2019.12.1
             <?php
+echo "connected";
+            $conn = mysqli_connect("localhost", "cita", "cita", "cita_events") or die("could not connect to DB");
+            //Test
+            echo "<script>console.log('hello world')</script>";
 
-$conn = mysqli_connect("localhost", "cita", "cita", "cita_events") or die("could not connect to DB");
 
-
-
-/*collect data*/
-
-if(isset($_POST['search'])){
-    $searchq = $_POST['search'];
-    $searchq = preg_replace('#[^0-9a-z]#i','',$searchq); // replace if not 0-9 or a-z
-    $query = mysqli_query($conn,"SELECT * FROM users WHERE name LIKE '%$searchq%'");
-    $count = mysqli_num_rows($query); // how many rows will be picked up according to the searching.
-    if($count == 0){ // if count is 0 means no data was matched
-        $output = 'there was no search results';
-    }else{
-        while($row = mysqli_fetch_array($query)){
-            $id = $row['id'];
-            $name = $row['name'];
-            $email = $row['email'];
-            $birth = $row['birth'];
-            $output .= '<div>'.$id.'  '.$name.'  '.$email.'  '.$birth.'</div>';
-          }
-          }
-          }
-
-          ?>
+            //collect data from DB
+            $sth = mysqli_query($conn, "SELECT * from EVENTS");
+                        $rows = array();
+                        if($sth)
+                        {
+                         while($r = mysqli_fetch_assoc($sth)) {
+                                        $rows[] = $r;
+                                    }
+                                    print json_encode($rows);
+                        }
+            ?>
 
             <div id="calendar"></div>
           </div>

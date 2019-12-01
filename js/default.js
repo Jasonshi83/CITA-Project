@@ -1,3 +1,4 @@
+
 function init() {
   cal.setCalendars(CalendarList);
 
@@ -139,20 +140,51 @@ function setSchedules() {
   cal.clear();
   // generateSchedule(cal.getViewName(), cal.getDateRangeStart(), cal.getDateRangeEnd());
   // cal.createSchedules(ScheduleList);
-  var schedules = [
-    {id: 489273, title: 'Workout for 2019-04-05', isAllDay: false, start: '2018-02-01T11:30:00+13:00', end: '2018-02-01T12:00:00+13:00', goingDuration: 30, comingDuration: 30, color: '#ffffff', isVisible: true, bgColor: '#69BB2D', dragBgColor: '#69BB2D', borderColor: '#69BB2D', calendarId: 'logged-workout', category: 'time', dueDateClass: '', customStyle: 'cursor: default;', isPending: false, isFocused: false, isReadOnly: true, isPrivate: false, location: '', attendees: '', recurrenceRule: '', state: ''},
-    {id: 18073, title: 'completed with blocks', isAllDay: false, start: '2018-11-17T09:00:00+13:00', end: '2018-11-17T10:00:00+13:00', color: '#ffffff', isVisible: true, bgColor: '#54B8CC', dragBgColor: '#54B8CC', borderColor: '#54B8CC', calendarId: 'workout', category: 'time', dueDateClass: '', customStyle: '', isPending: false, isFocused: false, isReadOnly: false, isPrivate: false, location: '', attendees: '', recurrenceRule: '', state: ''},
-    {
-      id: '1',
-      calendarId: '1',
-      title: 'Hello world',
-      category: 'time',
-      dueDateClass: '',
-      start: '2018-03-18T10:30:00+13:00',
-      end: '2018-03-18T12:30:00+13:00'
-    }
 
-  ];
+
+
+
+  // var schedules = [
+  //   {id: 489273, title: 'Dev Team dinner party', isAllDay: false, start: '2019-12-10T11:30:00+13:00', end: '2019-12-10T12:00:00+13:00', goingDuration: 30, comingDuration: 30, color: '#ffffff', isVisible: true, bgColor: '#69BB2D', dragBgColor: '#69BB2D', borderColor: '#69BB2D', calendarId: 'logged-workout', category: 'time', dueDateClass: '', customStyle: 'cursor: default;', isPending: false, isFocused: false, isReadOnly: true, isPrivate: false, location: '', attendees: '', recurrenceRule: '', state: ''},
+  //   {id: 18073, title: 'Jason will get a free meal on that day', isAllDay: false, start: '2019-12-20T09:00:00+13:00', end: '2019-12-20T10:00:00+13:00', color: '#ffffff', isVisible: true, bgColor: '#54B8CC', dragBgColor: '#54B8CC', borderColor: '#54B8CC', calendarId: 'workout', category: 'time', dueDateClass: '', customStyle: '', isPending: false, isFocused: false, isReadOnly: false, isPrivate: false, location: '', attendees: '', recurrenceRule: '', state: ''},
+  //   {
+  //     id: '1',
+  //     calendarId: '1',
+  //     title: 'Happy Christmas!!',
+  //     category: 'time',
+  //     dueDateClass: '',
+  //     start: '2019-12-24T10:30:00+13:00',
+  //     end: '2019-12-24T12:30:00+13:00'
+  //   },
+  //   {
+  //     id: '3',
+  //     calendarId: '1',
+  //     title: 'Testing!!',
+  //     category: 'time',
+  //     dueDateClass: '',
+  //     start: '2019-12-24T13:30:00+13:00',
+  //     end: '2019-12-24T14:30:00+13:00'
+  //   },
+  //   {
+  //     id: '2',
+  //     calendarId: '1',
+  //     title: 'Where is my Christmas gift??!!',
+  //     category: 'time',
+  //     dueDateClass: '',
+  //     start: '2019-12-25T10:30:00+13:00',
+  //     end: '2019-12-25T12:30:00+13:00'
+  //   }
+  //
+  // ];
+
+
+
+
+
+
+
+
+
   cal.createSchedules(schedules);
   refreshScheduleVisibility();
 }
