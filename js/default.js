@@ -1,4 +1,6 @@
 
+
+
 function init() {
   cal.setCalendars(CalendarList);
 
@@ -138,11 +140,8 @@ function setRenderRangeText() {
 
 function setSchedules() {
   cal.clear();
-  // generateSchedule(cal.getViewName(), cal.getDateRangeStart(), cal.getDateRangeEnd());
-  // cal.createSchedules(ScheduleList);
-
-
-
+  generateSchedule(cal.getViewName(), cal.getDateRangeStart(), cal.getDateRangeEnd());
+  cal.createSchedules(ScheduleList);
 
   // var schedules = [
   //   {id: 489273, title: 'Dev Team dinner party', isAllDay: false, start: '2019-12-10T11:30:00+13:00', end: '2019-12-10T12:00:00+13:00', goingDuration: 30, comingDuration: 30, color: '#ffffff', isVisible: true, bgColor: '#69BB2D', dragBgColor: '#69BB2D', borderColor: '#69BB2D', calendarId: 'logged-workout', category: 'time', dueDateClass: '', customStyle: 'cursor: default;', isPending: false, isFocused: false, isReadOnly: true, isPrivate: false, location: '', attendees: '', recurrenceRule: '', state: ''},
@@ -174,19 +173,34 @@ function setSchedules() {
   //     start: '2019-12-25T10:30:00+13:00',
   //     end: '2019-12-25T12:30:00+13:00'
   //   }
-  //
   // ];
 
 
 
+  //Pass Php file to variable in JS file.
+  var oReq = new XMLHttpRequest();
+  oReq.onload = function() {
+    // This is where you handle what to do with the response.
+    // The actual data is found on this.responseText
+    var schedules = JSON.parse(this.responseText);
+    // var schedules = [{"id":"2","calendarId":"3","title":"Morning Tea","category":"time","dueDateClass":"","start":"2019-12-25 06:50:00","end":"2019-12-25 08:51:21"},{"id":"2","calendarId":"3","title":"Education","category":"time","dueDateClass":"","start":"2019-12-07 18:52:31","end":"2019-12-07 20:52:38"},{"id":"2","calendarId":"3","title":"Lunch Party","category":"time","dueDateClass":"","start":"2020-01-01 11:53:10","end":"2020-01-01 12:53:25"},{"id":"2","calendarId":"3","title":"Game","category":"time","dueDateClass":"","start":"2019-12-09 22:18:11","end":"2019-12-12 22:18:16"}];
+    cal.createSchedules(schedules);
+    refreshScheduleVisibility();
+  };
+  oReq.open("get","DBTesting.php",true);
+  oReq.send();
 
 
 
 
+  // var schedules = [{"id":"2","calendarId":"3","title":"Morning Tea","category":"time","dueDateClass":"","start":"2019-12-25 06:50:00","end":"2019-12-25 08:51:21"},{"id":"2","calendarId":"3","title":"Education","category":"time","dueDateClass":"","start":"2019-12-07T18:52:31+13:00","end":"2019-12-07T20:52:38+13:00"},{"id":"2","calendarId":"3","title":"Lunch Party","category":"time","dueDateClass":"","start":"2020-01-01T11:53:10+13:00","end":"2020-01-01T12:53:25+13:00"}];
+  // var schedules = [{"id":"2","calendarId":"3","title":"Morning Tea","category":"time","dueDateClass":"","start":"2019-12-25 06:50:00","end":"2019-12-25 08:51:21"},{"id":"2","calendarId":"3","title":"Education","category":"time","dueDateClass":"","start":"2019-12-07 18:52:31","end":"2019-12-07 20:52:38"},{"id":"2","calendarId":"3","title":"Lunch Party","category":"time","dueDateClass":"","start":"2020-01-01 11:53:10","end":"2020-01-01 12:53:25"},{"id":"2","calendarId":"3","title":"Game","category":"time","dueDateClass":"","start":"2019-12-09 22:18:11","end":"2019-12-12 22:18:16"}];
 
 
-  cal.createSchedules(schedules);
-  refreshScheduleVisibility();
+  // var schedules = [];
+  //
+  // cal.createSchedules(schedules);
+  // refreshScheduleVisibility();
 }
 
 
@@ -234,3 +248,4 @@ cal.on({
 });
 
 init();
+

@@ -85,24 +85,22 @@
 
 
             //Connect to database by jason 2019.12.1
-            <?php
-echo "connected";
-            $conn = mysqli_connect("localhost", "cita", "cita", "cita_events") or die("could not connect to DB");
-            //Test
-            echo "<script>console.log('hello world')</script>";
-
-
-            //collect data from DB
-            $sth = mysqli_query($conn, "SELECT * from EVENTS");
-                        $rows = array();
-                        if($sth)
-                        {
-                         while($r = mysqli_fetch_assoc($sth)) {
-                                        $rows[] = $r;
-                                    }
-                                    print json_encode($rows);
-                        }
-            ?>
+//            <?php
+//            $conn = mysqli_connect("10.140.61.247:3306", "citauser", "citauser", "cita_events") or die("could not connect to DB");
+//            //Test
+//            echo "<script>console.log('hello world')</script>";
+//
+//            //collect data from DB
+//            $sth = mysqli_query($conn, "SELECT * from EVENTS");
+//                        $rows = array();
+//                        if($sth)
+//                        {
+//                         while($r = mysqli_fetch_assoc($sth)) {
+//                                        $rows[] = $r;
+//                                    }
+//                                    echo json_encode($rows);
+//                        }
+//            ?>
 
             <div id="calendar"></div>
           </div>
@@ -301,7 +299,10 @@ echo "connected";
 
   </script>
 
-  <script src="./js/default.js"></script>
+  <script src="./js/default.js">
+  </script>
+
+
 
 
 </html>
