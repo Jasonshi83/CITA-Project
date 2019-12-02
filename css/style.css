@@ -4,8 +4,9 @@
 
 /* body */
 .container{
-    font-family: Montserrat,sans-serif;
-    max-width: 1200px;
+  font-family: Montserrat,sans-serif;
+  max-width: 1200px;
+
 }
 
 /* navbar */
@@ -28,9 +29,10 @@
   padding-top: 20px;
 }
 .navbar-nav{
-    margin-top: 25px;
-    float: right;
+  margin-top: 25px;
+  float: right;
 }
+
 .navbar-expand-lg .navbar-nav .links,
 .navbar-expand-lg .navbar-nav .nav-link{
   font-family: Montserrat,sans-serif;
@@ -56,6 +58,7 @@
   max-width: 32px;
   border-radius: 50%;
   margin-top: -5px;
+
 }
 
 .navbar-toggler{
@@ -111,12 +114,14 @@ footer{
   font-family: Source Sans Pro,sans-serif;
 }
 footer .col-2 p a{
-    text-decoration: none;
-    color: #fff;
+
+  text-decoration: none;
+  color: #fff;
 }
 .footer-wrap{
-    padding: 64px 24px;
-    padding-top: 25px;
+  padding: 64px 24px;
+  padding-top: 25px;
+
 }
 footer .row{
   /* background-color: coral; */
@@ -190,9 +195,9 @@ footer .social p a{
 }
 
 .fa:hover {
-    text-decoration: none;
-    color: #fff;
-    background: #45bbff;
+  text-decoration: none;
+  color: #fff;
+  background: #45bbff;
 }
 
 .fa-facebook {

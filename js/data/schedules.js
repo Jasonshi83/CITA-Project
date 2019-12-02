@@ -2,7 +2,28 @@
 
 /*eslint-disable*/
 
-var ScheduleList = [];
+// var ScheduleList = [];
+var ScheduleList = [
+    {
+        id: '1',
+        calendarId: '1',
+        title: 'my schedule',
+        category: 'time',
+        dueDateClass: '',
+        start: '2018-01-18T22:30:00+09:00',
+        end: '2018-01-19T02:30:00+09:00'
+    },
+    {
+        id: '2',
+        calendarId: '1',
+        title: 'second schedule',
+        category: 'time',
+        dueDateClass: '',
+        start: '2018-01-18T17:30:00+09:00',
+        end: '2018-01-19T17:31:00+09:00',
+        isReadOnly: true    // schedule is read-only
+    }
+];
 
 var SCHEDULE_CATEGORY = [
     'milestone',
@@ -105,6 +126,8 @@ function generateNames() {
     return names;
 }
 
+// Comment it out by Jason 2019.12.1 4:36pm
+
 function generateRandomSchedule(calendar, renderStart, renderEnd) {
     var schedule = new ScheduleInfo();
 
@@ -146,7 +169,7 @@ function generateRandomSchedule(calendar, renderStart, renderEnd) {
         schedule.comingDuration = travelTime;
     }
 
-    ScheduleList.push(schedule);
+    // ScheduleList.push(schedule);
 }
 
 function generateSchedule(viewName, renderStart, renderEnd) {
