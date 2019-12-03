@@ -11,10 +11,9 @@
         public $start;
         public $end;
     }
-//    $conn = mysqli_connect("10.140.61.247:3306", "citauser", "citauser", "cita_events") or die("could not connect to DB");
-    $conn = mysqli_connect("10.140.62.148:3306", "jill", "password", "seek_a_leak") or die("could not connect to DB");
+    $conn = mysqli_connect("10.140.61.247:3306", "citauser", "citauser", "cita_events") or die("could not connect to DB");
     //Test
-    $result = $conn->query("SELECT * from EVENTS");
+    $result = $conn->query("select * from events where EventStart >= CURRENT_TIMESTAMP order by eventStart;");
 //    $r = mysqli_fetch_assoc($sth)
 //    $rows = array();
     if($result){
