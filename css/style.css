@@ -11,14 +11,14 @@
 
 /* navbar */
 .navbar {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
-  height: 8.25rem;
+  height: 6.25rem;
   background-color: #fff;
   padding: 0px;
   position: fixed;
   padding-top: 10px;
-  padding-bottom: 39px;
+  padding-bottom: 20px;
 }
 .logo {
   max-height: 40px;
@@ -105,6 +105,14 @@
 /* event */
 .card{
   margin-top: 20px;
+}
+
+.read-more:hover{
+  text-align: center;
+  display: inline-block;
+  background-color: #008ffe;
+  color: #fff;
+  text-decoration: none;
 }
 
 /* footer */
