@@ -89,9 +89,12 @@
         <div class="col-4">
           <div class="event-content">
             <div class="event-subcontent">
-              <h4>Events</h4>
+              <h4>Upcoming Events</h4>
             </div>
-            <div class="card w-100">
+            <div class="event-lists">
+              <!-- <p class="event-details">good</p> -->
+            </div>
+            <!-- <div class="card w-100">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -111,7 +114,7 @@
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                 <a href="#" class="btn btn-primary">Button</a>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -279,4 +282,17 @@
   });
   </script>
   <script src="./js/default.js"></script>
+  <!-- <script type="text/javascript">
+    function loadJson2(){
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          var myObj = JSON.parse(this.responseText);
+          document.getElementsByClassName("event-details").innerHTML = myObj.events[1].title+"</br>"+myObj.events[1].start+"</br>"+myObj.events[1].end;
+        }
+      };
+      xmlhttp.open("GET", "DBTesting.php", true);
+      xmlhttp.send();
+    }
+  </script> -->
 </html>

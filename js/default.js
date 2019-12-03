@@ -7,6 +7,108 @@ function init() {
   setRenderRangeText();
   setSchedules();
   setEventListener();
+  displayEvents();
+}
+
+function displayEvents(){
+
+  var oReq = new XMLHttpRequest();
+  oReq.onload = function() {
+    // This is where you handle what to do with the response.
+    // The actual data is found on this.responseText
+    var schedules = JSON.parse(this.responseText);
+    // schedules = "{\"events\": " +schedules+ "}";
+    // var schedules = [{"id":"2","calendarId":"3","title":"Morning Tea","category":"time","dueDateClass":"","start":"2019-12-25 06:50:00","end":"2019-12-25 08:51:21"},{"id":"2","calendarId":"3","title":"Education","category":"time","dueDateClass":"","start":"2019-12-07 18:52:31","end":"2019-12-07 20:52:38"},{"id":"2","calendarId":"3","title":"Lunch Party","category":"time","dueDateClass":"","start":"2020-01-01 11:53:10","end":"2020-01-01 12:53:25"},{"id":"2","calendarId":"3","title":"Game","category":"time","dueDateClass":"","start":"2019-12-09 22:18:11","end":"2019-12-12 22:18:16"}];
+
+  // var node = document.createElement("DIV");
+  // var node2 = document.createElement("DIV");
+  // var text = "Title: "+schedules[i].title+"</br>"
+  // +"Start time: "+schedules[i].start+"</br>End time: "+schedules[i].end+"</br>"
+  // var textnode = document.createTextNode(text);
+  // node.appendChild(textnode);
+  // node2.appendChild(node);
+  // document.getElementsByClassName("event-lists")[0].appendChild(node);
+
+  for(var i=0; i<4; i++){
+
+    var node = document.createElement("div");
+    node.className = 'card w-100';
+    var node2 = document.createElement("div");
+    node2.className = 'card-body';
+    var title = document.createElement("h5");
+    title.className = 'card-title';
+    var content = document.createElement("p");
+    content.className = 'card-text';
+    var btn = document.createElement("a");
+    btn.className = 'btn btn-primary';
+    btn.href ="#";
+    var subcontent1 = document.createElement("p");
+    subcontent1.className = 'card-subtext1';
+    var subcontent2 = document.createElement("p");
+    subcontent2.className = 'card-subtext2';
+    var subcontent3 = document.createElement("p");
+    subcontent3.className = 'card-subtext3';
+
+    var titletext = schedules[i].title
+    var titlenode = document.createTextNode(titletext);
+
+    // var text = "Start time: "+schedules[i].start+"End time: "+schedules[i].end+"</br>"
+    // var textnode = document.createTextNode(text);
+    var start = "Start time: "+schedules[i].start
+    var startnode = document.createTextNode(start);
+    var end = "End time: "+schedules[i].end
+    var endnode = document.createTextNode(end);
+    var category = "Category: "+schedules[i].category
+    var categorynode = document.createTextNode(category);
+
+    var btntext = "BUTTON"
+    var btnnode = document.createTextNode(btntext);
+    // var btn = document.createElement("a");
+    // btn.className = 'btn btn-primary';
+    // btn.href = "#";
+    // var text ="BUTTON";
+    // btn.appendChild(text);
+    btn.appendChild(btnnode);
+    // content.appendChild(textnode);
+    title.appendChild(titlenode);
+    subcontent1.appendChild(startnode);
+    subcontent2.appendChild(endnode);
+    subcontent3.appendChild(categorynode);
+    content.appendChild(subcontent1);
+    content.appendChild(subcontent2);
+    content.appendChild(subcontent3);
+
+    node2.appendChild(title);
+    node2.appendChild(content);
+    node2.appendChild(btn);
+
+    node.appendChild(node2);
+    document.getElementsByClassName("event-lists")[0].appendChild(node);
+
+    //***************************************
+    // var node = document.createElement("DIV");
+    // var node2 = document.createElement("DIV");
+    // var text = "Title: "+schedules[i].title+"</br>"
+    // +"Start time: "+schedules[i].start+"</br>End time: "+schedules[i].end+"</br>"
+    // var textnode = document.createTextNode(text);
+    // node.appendChild(textnode);
+    // node2.appendChild(node);
+    // document.getElementsByClassName("event-lists")[0].appendChild(node);
+    //***************************************8
+
+
+    // var node = document.createElement("div");
+    //  var textnode = document.createTextNode("Water");
+    //  node.appendChild(textnode);
+    //  document.getElementsByClassName("event-lists").appendChild(node);
+
+    // document.getElementsByClassName("event-details")[0].innerHTML = "Title: "+schedules[i].title+"</br>"
+    // +"Start time: "+schedules[i].start+"</br>End time: "+schedules[i].end+"</br>";
+  }
+  };
+  oReq.open("get","UpcomingEvent.php",true);
+  oReq.send();
+
 }
 
 function getDataAction(target) {
@@ -248,4 +350,3 @@ cal.on({
 });
 
 init();
-
