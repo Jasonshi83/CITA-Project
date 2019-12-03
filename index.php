@@ -27,14 +27,14 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto align-middle">
-            <li class="nav-item active">
-              <a class="nav-link links current" href="#">Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link links" href="#">Home</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link links" href="#">Our Team</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link links" href="#">Events</a>
+            <li class="nav-item active">
+              <a class="nav-link links current" href="#">Events <span class="sr-only">(current)</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/">
