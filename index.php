@@ -83,7 +83,7 @@
               <span id="renderRange" class="render-range"></span>
             </div>
 
-            <div id="calendar"></div>
+            <div id="calendar" style="height: 600px;"></div>
           </div>
         </div>
         <div class="col-4">
@@ -274,7 +274,7 @@
   var cal = new tui.Calendar('#calendar', {
     defaultView: 'month',
     template: templates,
-    useCreationPopup: true,
+    useCreationPopup: false,
     useDetailPopup: true
   });
   </script>
