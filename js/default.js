@@ -54,14 +54,14 @@ function displayEvents(){
 
     // var text = "Start time: "+schedules[i].start+"End time: "+schedules[i].end+"</br>"
     // var textnode = document.createTextNode(text);
-    var start = "Start time: "+schedules[i].start
+    var start = "Start time: "+schedules[i].start;
     var startnode = document.createTextNode(start);
-    var end = "End time: "+schedules[i].end
+    var end = "End time: "+schedules[i].end;
     var endnode = document.createTextNode(end);
-    var category = "Category: "+schedules[i].category
+    var category = "Category: "+schedules[i].category;
     var categorynode = document.createTextNode(category);
 
-    var btntext = "BUTTON"
+    var btntext = "BUTTON";
     var btnnode = document.createTextNode(btntext);
     // var btn = document.createElement("a");
     // btn.className = 'btn btn-primary';
@@ -291,9 +291,6 @@ function setSchedules() {
   };
   oReq.open("get","DBTesting.php",true);
   oReq.send();
-
-
-
 
   // var schedules = [{"id":"2","calendarId":"3","title":"Morning Tea","category":"time","dueDateClass":"","start":"2019-12-25 06:50:00","end":"2019-12-25 08:51:21"},{"id":"2","calendarId":"3","title":"Education","category":"time","dueDateClass":"","start":"2019-12-07T18:52:31+13:00","end":"2019-12-07T20:52:38+13:00"},{"id":"2","calendarId":"3","title":"Lunch Party","category":"time","dueDateClass":"","start":"2020-01-01T11:53:10+13:00","end":"2020-01-01T12:53:25+13:00"}];
   // var schedules = [{"id":"2","calendarId":"3","title":"Morning Tea","category":"time","dueDateClass":"","start":"2019-12-25 06:50:00","end":"2019-12-25 08:51:21"},{"id":"2","calendarId":"3","title":"Education","category":"time","dueDateClass":"","start":"2019-12-07 18:52:31","end":"2019-12-07 20:52:38"},{"id":"2","calendarId":"3","title":"Lunch Party","category":"time","dueDateClass":"","start":"2020-01-01 11:53:10","end":"2020-01-01 12:53:25"},{"id":"2","calendarId":"3","title":"Game","category":"time","dueDateClass":"","start":"2019-12-09 22:18:11","end":"2019-12-12 22:18:16"}];
