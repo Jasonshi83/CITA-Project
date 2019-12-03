@@ -40,7 +40,7 @@ function displayEvents(){
     var content = document.createElement("p");
     content.className = 'card-text';
     var btn = document.createElement("a");
-    btn.className = 'btn btn-primary';
+    btn.className = 'btn btn-primary read-more';
     btn.href ="#";
     var subcontent1 = document.createElement("p");
     subcontent1.className = 'card-subtext1';
@@ -61,7 +61,7 @@ function displayEvents(){
     var category = "Category: "+schedules[i].category
     var categorynode = document.createTextNode(category);
 
-    var btntext = "BUTTON"
+    var btntext = "READ MORE"
     var btnnode = document.createTextNode(btntext);
     // var btn = document.createElement("a");
     // btn.className = 'btn btn-primary';
