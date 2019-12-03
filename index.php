@@ -114,7 +114,7 @@
               <span id="renderRange" class="render-range"></span>
             </div>
 
-            <div id="calendar" style="height: 600px;"></div>
+            <div id="calendar" style="height: 400px;"></div>
           </div>
         </div>
         <div class="col-4">

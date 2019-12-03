@@ -22,7 +22,7 @@
         $user->id = '';
         $user->calendarId = '';
         $user->title = $row["ShortDesc"];
-        $user->category = 'time';
+        $user->category = $row["category"];
         $user->dueDateClass = '';
         $user->start = $row["EventStart"];
         $user->end = $row["EventEnd"];
