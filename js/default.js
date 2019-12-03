@@ -14,20 +14,8 @@ function displayEvents(){
 
   var oReq = new XMLHttpRequest();
   oReq.onload = function() {
-    // This is where you handle what to do with the response.
-    // The actual data is found on this.responseText
-    var schedules = JSON.parse(this.responseText);
-    // schedules = "{\"events\": " +schedules+ "}";
-    // var schedules = [{"id":"2","calendarId":"3","title":"Morning Tea","category":"time","dueDateClass":"","start":"2019-12-25 06:50:00","end":"2019-12-25 08:51:21"},{"id":"2","calendarId":"3","title":"Education","category":"time","dueDateClass":"","start":"2019-12-07 18:52:31","end":"2019-12-07 20:52:38"},{"id":"2","calendarId":"3","title":"Lunch Party","category":"time","dueDateClass":"","start":"2020-01-01 11:53:10","end":"2020-01-01 12:53:25"},{"id":"2","calendarId":"3","title":"Game","category":"time","dueDateClass":"","start":"2019-12-09 22:18:11","end":"2019-12-12 22:18:16"}];
 
-  // var node = document.createElement("DIV");
-  // var node2 = document.createElement("DIV");
-  // var text = "Title: "+schedules[i].title+"</br>"
-  // +"Start time: "+schedules[i].start+"</br>End time: "+schedules[i].end+"</br>"
-  // var textnode = document.createTextNode(text);
-  // node.appendChild(textnode);
-  // node2.appendChild(node);
-  // document.getElementsByClassName("event-lists")[0].appendChild(node);
+    var schedules = JSON.parse(this.responseText);
 
   for(var i=0; i<4; i++){
 
