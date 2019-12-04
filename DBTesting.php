@@ -20,7 +20,7 @@
         while($row = mysqli_fetch_array($result,MYSQLI_ASSOC)){
         $user = new User();
         $user->id = $row["id"];
-        $user->calendarId = '7';
+        $user->calendarId = $row["Category"];
         $user->title = $row["ShortDesc"];
         $user->category = 'time';
         $user->dueDateClass = '';
