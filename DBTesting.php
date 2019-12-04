@@ -19,13 +19,14 @@
     if($result){
         while($row = mysqli_fetch_array($result,MYSQLI_ASSOC)){
         $user = new User();
-        $user->id = '';
-        $user->calendarId = 'allday';
+        $user->id = $row["id"];
+        $user->calendarId = '7';
         $user->title = $row["ShortDesc"];
         $user->category = 'time';
         $user->dueDateClass = '';
         $user->start = $row["EventStart"];
         $user->end = $row["EventEnd"];
+        $user->isReadOnly = "true";
         $data[] = $user;
         }
         $json = json_encode($data);

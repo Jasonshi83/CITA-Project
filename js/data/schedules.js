@@ -2,28 +2,34 @@
 
 /*eslint-disable*/
 
-// var ScheduleList = [];
-var ScheduleList = [
-    {
-        id: '1',
-        calendarId: '1',
-        title: 'my schedule',
-        category: 'time',
-        dueDateClass: '',
-        start: '2018-01-18T22:30:00+09:00',
-        end: '2018-01-19T02:30:00+09:00'
-    },
-    {
-        id: '2',
-        calendarId: '1',
-        title: 'second schedule',
-        category: 'time',
-        dueDateClass: '',
-        start: '2018-01-18T17:30:00+09:00',
-        end: '2018-01-19T17:31:00+09:00',
-        isReadOnly: true    // schedule is read-only
-    }
-];
+var ScheduleList = [];
+
+/****************************************************/
+/*following scheduelist shall be delted Jason 12.4 */
+
+// var ScheduleList = [
+//     {
+//         id: '1',
+//         calendarId: '1',
+//         title: 'my schedule',
+//         category: 'time',
+//         dueDateClass: '',
+//         start: '2018-01-18T22:30:00+09:00',
+//         end: '2018-01-19T02:30:00+09:00'
+//     },
+//     {
+//         id: '2',
+//         calendarId: '1',
+//         title: 'second schedule',
+//         category: 'time',
+//         dueDateClass: '',
+//         start: '2018-01-18T17:30:00+09:00',
+//         end: '2018-01-19T17:31:00+09:00',
+//         isReadOnly: true    // schedule is read-only
+//     }
+// ];
+/****************************************************/
+
 
 var SCHEDULE_CATEGORY = [
     'milestone',

@@ -19,10 +19,10 @@
     if($result){
         while($row = mysqli_fetch_array($result,MYSQLI_ASSOC)){
         $user = new User();
-        $user->id = '';
+        $user->id = $row["id"];
         $user->calendarId = '';
         $user->title = $row["ShortDesc"];
-        $user->category = $row["category"];
+        $user->category = $row["Category"];
         $user->dueDateClass = '';
         $user->start = $row["EventStart"];
         $user->end = $row["EventEnd"];

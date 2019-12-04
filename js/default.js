@@ -37,7 +37,7 @@ function displayEvents(){
     var subcontent3 = document.createElement("p");
     subcontent3.className = 'card-subtext3';
 
-    var titletext = schedules[i].title
+    var titletext = schedules[i].title;
     var titlenode = document.createTextNode(titletext);
 
     // var text = "Start time: "+schedules[i].start+"End time: "+schedules[i].end+"</br>"
