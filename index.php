@@ -78,7 +78,7 @@
       </nav> -->
 
       <div class="row row-body">
-        <div class="col-3 profile">
+        <div class="col-lg-3 col-sm-4 col-xs-4 profile">
           <img src="https://www.gravatar.com/avatar/5c25e0e0063bc9535b723c133e39a11d?s=64&d=mm&r=g" alt="avatar-profile">
           <div class="profile-content">
               <div class="sub-content">
@@ -99,7 +99,7 @@
               </div>
           </div>
         </div>
-        <div class="col-5">
+        <div class="col-lg-5 col-sm-8 col-xs-8">
           <div class="code-html">
             <div id="menu">
               <span id="menu-navi">
@@ -117,7 +117,7 @@
             <div id="calendar" style="height: 600px;"></div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-sm-12 col-xs-12">
           <div class="event-content">
             <div class="event-subcontent">
               <h4>Upcoming Events</h4>

@@ -291,12 +291,70 @@ footer .copyright{
     margin: 180px 10px 50px 10px;
     /* margin-top: 180px;
     margin-bottom: 50px; */
+    height: 1800px;
+  }
+
+  .row-body .col-lg-4{
+    margin-top: 180px;
+  }
+
+}
+
+@media only screen and (max-width: 833px) {
+  .row-body{
+    height: 2000px;
+  }
+  .row-body .col-4{
+    margin-top: 60px;
+    left: 0;
+    right: 0;
+  }
+  .card{
+    float: left;
+    /* margin: 10px 10px; */
+    height: 250px;
+    margin-right: 10px;
   }
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
+  .row-body .col-lg-4{
+    margin-top: 60px;
+  }
+}
+
+
+@media only screen and (max-width: 791px) {
+  /* .row-body .col-4{
+
+  } */
   .footer-bottom {
     margin-top: 35px;
     text-align: center;
   }
+}
+
+@media only screen and (max-width: 576px) {
+  .row-body .col-lg-4{
+    /* margin-top: 300px; */
+  }
+
+  .footer-bottom {
+    margin-top: 35px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .row-body .col-lg-4{
+    margin-top: 650px;
+  }
+
+}
+
+@media only screen and (max-width: 574px) {
+  .row-body{
+    height: 2500px;
+  }
+
 }
