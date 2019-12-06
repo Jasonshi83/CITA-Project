@@ -70,6 +70,41 @@
               <p class="user-name">STEPHANIE LI</p>
           </div>
           <div class="sidebar-menu">
+            <h4>Events</h4>
+            <div class="row">
+              <div class="col-lg-6">
+                <i class="far fa-calendar-check"></i>
+                <p>Past Events</p>
+              </div>
+              <div class="col-lg-6">
+                <i class="far fa-star"></i>
+                <p>Favourites</p>
+              </div>
+            </div>
+
+            <h4>Learning Hub</h4>
+            <div class="row">
+              <div class="col-lg-6">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <p>My Courses</p>
+              </div>
+              <div class="col-lg-6">
+                <i class="far fa-star"></i>
+                <p>Favourites</p>
+              </div>
+            </div>
+
+            <h4>Interest Groups</h4>
+            <div class="row">
+              <div class="col-lg-6">
+                <i class="fas fa-user-friends"></i>
+                <p>My Groups</p>
+              </div>
+              <div class="col-lg-6">
+                <i class="far fa-star"></i>
+                <p>Favourites</p>
+              </div>
+            </div>
             1 of 2
           </div>
         </div>
@@ -77,19 +112,72 @@
           <div class="main-section">
             <div class="upcoming-events">
               <h3 class="content-title">Upcoming Events</h3>
+
+              <div class="row upcoming-category justify-content-md-center">
+                <div class="col-2 category-mode my-event">
+                  <i class="far fa-calendar-check"></i>
+                  <p>My Events</p>
+                </div>
+                <div class="col-2 category-mode coffee">
+                  <i class="fas fa-mug-hot"></i>
+                  <p>Coffee</p>
+                </div>
+                <div class="col-2 category-mode meetup">
+                  <i class="fab fa-meetup"></i>
+                  <p>Meetup</p>
+                </div>
+                <div class="col-2 category-mode training-workshop">
+                  <i class="fas fa-chalkboard-teacher"></i>
+                  <p>Training &</br> workshop</p>
+                </div>
+                <div class="col-2 category-mode training-workshop">
+                  <i class="fas fa-laptop"></i>
+                  <p>Tech summit</p>
+                </div>
+              </div>
+
               <div class="row upcoming-block">
                 <div class="col-lg-12">
                   <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-4 image-left">
                         <img src=".\css\assets\interest-groups1.png" alt="Card image cap">
                     </div>
-                    <div class="col-lg-9">
+                    <div class="col-lg-8">
                       <h3>Pizza & Python</h3>
                       <p>In this hands-on workshop, we’ll learn about Python programming and how to
                           write your first script while enjoying pizza together! </p>
                       <div class="row">
                         <div class="col-lg-4">
-                          <i class="far fa-calendar"></i>>
+                          <i class="far fa-calendar"></i>
+                          <span>Fri, 13th December 2019 16:00 - 18:00 </span>
+                        </div>
+                        <div class="col-lg-4">
+                          <i class="fas fa-map-marker-alt"></i>
+                          <span>Golding’s Free Dive 14 Leeds Street, Te Aro </span>
+                        </div>
+                        <div class="col-lg-4">
+                          <button type="button" name="button">ATTENDING</button>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row upcoming-block">
+                <div class="col-lg-12">
+                  <div class="row">
+                    <div class="col-lg-4 image-left">
+                        <img src=".\css\assets\interest-groups1.png" alt="Card image cap">
+                    </div>
+                    <div class="col-lg-8">
+                      <h3>Pizza & Python</h3>
+                      <p>In this hands-on workshop, we’ll learn about Python programming and how to
+                          write your first script while enjoying pizza together! </p>
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <i class="far fa-calendar"></i>
                           <span>Fri, 13th December 2019 16:00 - 18:00 </span>
                         </div>
                         <div class="col-lg-4">

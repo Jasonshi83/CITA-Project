@@ -103,6 +103,22 @@
   padding: 30px;
 }
 
+/* upcomming event */
+.category-mode{
+  text-align: center;
+  background-color: pink;
+  margin: 0px 10px;
+}
+
+.upcoming-block{
+  margin-top: 20px;
+}
+
+.image-left img{
+  width: 260px;
+}
+
+
 /* jobs */
 .job-block{
     background-color: pink;
