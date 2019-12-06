@@ -223,7 +223,7 @@ footer .social p a{
   /* text-decoration: none; */
 }
 
-.fa {
+.fab {
   padding: 5px;
   font-size: 15px;
   width: 25px;
@@ -234,13 +234,13 @@ footer .social p a{
   border-radius: 50%;
 }
 
-.fa:hover {
+.fab:hover {
   text-decoration: none;
   color: #fff;
   background: #45bbff;
 }
 
-.fa-facebook {
+.fa-facebook-f {
   background: #fff;
   color: #2f3133;
 }
@@ -250,7 +250,7 @@ footer .social p a{
   color: #2f3133;
 }
 
-.fa-linkedin {
+.fa-linkedin-in {
   background: #fff;
   color: #2f3133;
 }
