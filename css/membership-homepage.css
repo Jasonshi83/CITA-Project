@@ -103,6 +103,14 @@
   padding: 30px;
 }
 
+.card{
+  border-radius: 0;
+}
+
+.card-img-top{
+  border-radius: 0;
+}
+
 /* upcomming event */
 .category-mode{
   text-align: center;
@@ -116,6 +124,10 @@
 
 .image-left img{
   width: 260px;
+}
+
+.img-events{
+  object-fit: cover;
 }
 
 
