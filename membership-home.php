@@ -315,6 +315,7 @@
                     <p class="card-text">User </br>Experience</br> Design</p>
                     <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                   </div>
+                  <a href="#" class="stretched-link"></a>
                 </div>
                 <div class="card">
                   <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
@@ -323,6 +324,7 @@
                     <p class="card-text">Front-end </br>Development</p>
                     <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                   </div>
+                  <a href="#" class="stretched-link"></a>
                 </div>
                 <div class="card">
                   <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
@@ -331,6 +333,7 @@
                     <p class="card-text">Business </br>Analysis</p>
                     <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                   </div>
+                  <a href="#" class="stretched-link"></a>
                 </div>
               </div>
             </div>
@@ -345,6 +348,7 @@
                     <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                   </div>
+                  <a href="#" class="stretched-link"></a>
                 </div>
                 <div class="card">
                   <img class="card-img-top" src=".\css\assets\interest-groups2.png" alt="Card image cap">
@@ -353,6 +357,7 @@
                     <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                   </div>
+                  <a href="#" class="stretched-link"></a>
                 </div>
                 <div class="card">
                   <img class="card-img-top" src=".\css\assets\interest-groups3.png" alt="Card image cap">
@@ -361,6 +366,7 @@
                     <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                   </div>
+                  <a href="#" class="stretched-link"></a>
                 </div>
               </div>
             </div>

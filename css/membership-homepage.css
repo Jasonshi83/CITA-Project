@@ -324,6 +324,10 @@
   color: #fff;
 }
 
+.job-block a{
+
+}
+
 /* learning-hub */
 .learning-hub .card-deck .card{
   background-color: #8bd4e6;
@@ -332,6 +336,11 @@
   border: none;
   border-radius: none;
   padding: 20px 0px;
+}
+
+.learning-hub .card-deck .card:hover{
+  background-color: #6cc9e0;
+  cursor: pointer;
 }
 
 .learning-hub .card-deck .card-text{
