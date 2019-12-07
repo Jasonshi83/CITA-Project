@@ -115,34 +115,44 @@
 
               <div class="row upcoming-category justify-content-center">
                 <div class="col-2 category-mode d-flex align-items-center my-event">
-                  <div class="sub-category-mode">
+                  <!-- <div class="sub-category-mode"> -->
+                    <a class="sub-category-mode" href="#">
                     <i class="far fa-calendar-check"></i>
                     <p>My Events</p>
-                  </div>
+                    </a>
+                  <!-- </div> -->
                 </div>
                 <div class="col-2 category-mode d-flex align-items-center coffee">
-                  <div class="sub-category-mode">
+                  <!-- <div class="sub-category-mode"> -->
+                  <a class="sub-category-mode" href="#">
                     <i class="fas fa-mug-hot"></i>
                     <p>Coffee</p>
-                  </div>
+                  </a>
+                  <!-- </div> -->
                 </div>
                 <div class="col-2 category-mode d-flex align-items-center meetup">
-                  <div class="sub-category-mode">
+                  <!-- <div class="sub-category-mode"> -->
+                  <a class="sub-category-mode" href="#">
                     <i class="fab fa-meetup"></i>
                     <p>Meetup</p>
-                  </div>
+                  </a>
+                  <!-- </div> -->
                 </div>
                 <div class="col-2 category-mode d-flex align-items-center training-workshop">
-                  <div class="sub-category-mode">
+                  <!-- <div class="sub-category-mode"> -->
+                  <a class="sub-category-mode" href="#">
                     <i class="fas fa-chalkboard-teacher"></i>
                     <p>Training &</br> workshop</p>
-                  </div>
+                  </a>
+                  <!-- </div> -->
                 </div>
                 <div class="col-2 category-mode d-flex align-items-center training-workshop">
-                  <div class="sub-category-mode">
+                  <!-- <div class="sub-category-mode"> -->
+                  <a class="sub-category-mode" href="#">
                     <i class="fas fa-laptop"></i>
                     <p>Tech summit</p>
-                  </div>
+                  </a>  
+                  <!-- </div> -->
                 </div>
               </div>
 
