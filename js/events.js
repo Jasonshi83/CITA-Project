@@ -1,5 +1,6 @@
+document.getElementsByClassName("fa-meetup")[0].attributes[1].value = "false";
 
-  showEvents();
+showEvents();
 
 
 
