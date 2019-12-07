@@ -53,7 +53,7 @@ function hexToRGBA(hex) {
     calendar.name = 'Meetup';
     calendar.color = '#ffffff';
     calendar.bgColor = '#9e5fff';
-    calendar.dragBgColor = '#9e5fff';
+    // calendar.dragBgColor = '#9e5fff';
     calendar.borderColor = '#9e5fff';
     addCalendar(calendar);
 

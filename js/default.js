@@ -17,19 +17,38 @@ function displayEvents(){
 
     var schedules = JSON.parse(this.responseText);
 
+    // if(schedules.)
+    // {
+    //
+    // }
+
   for(var i=0; i<4; i++){
 
     var node = document.createElement("div");
     node.className = 'card w-100';
     var node2 = document.createElement("div");
     node2.className = 'card-body';
+
+    var test = document.createElement("img");
+    test.className = 'card-title';
+    test.src = "images/ic-arrow-line-left.png";
+
+
     var title = document.createElement("h5");
     title.className = 'card-title';
     var content = document.createElement("p");
     content.className = 'card-text';
+
     var btn = document.createElement("a");
     btn.className = 'btn btn-primary read-more';
     btn.href ="#";
+
+    /*Added for button "apply"*/
+    var btn_Apply = document.createElement("a");
+    btn_Apply.className = 'btn btn-primary apply';
+    btn_Apply.href ="#";
+    /*-----------------------*/
+
     var subcontent1 = document.createElement("p");
     subcontent1.className = 'card-subtext1';
     var subcontent2 = document.createElement("p");
@@ -49,15 +68,29 @@ function displayEvents(){
     var category = "Category: "+schedules[i].category;
     var categorynode = document.createTextNode(category);
 
-    var btntext = "READ MORE"
+    var btntext = "READ MORE";
     var btnnode = document.createTextNode(btntext);
-    // var btn = document.createElement("a");
-    // btn.className = 'btn btn-primary';
-    // btn.href = "#";
-    // var text ="BUTTON";
-    // btn.appendChild(text);
     btn.appendChild(btnnode);
-    // content.appendChild(textnode);
+
+    /*Added text for button "apply"*/
+    var btntext_Apply = "ATTENDING";
+    var btnnode_Apply = document.createTextNode(btntext_Apply);
+    btn_Apply.appendChild(btnnode_Apply);
+    /*----------------------------*/
+
+
+
+    /*shall be deleted???*/
+    // btn.appendChild(btnnode);
+    /*-------------------*/
+
+
+
+
+
+
+
+
     title.appendChild(titlenode);
     subcontent1.appendChild(startnode);
     subcontent2.appendChild(endnode);
@@ -66,9 +99,14 @@ function displayEvents(){
     content.appendChild(subcontent2);
     content.appendChild(subcontent3);
 
+    node2.appendChild(test);
     node2.appendChild(title);
     node2.appendChild(content);
     node2.appendChild(btn);
+
+    /*added for new button*/
+    node2.appendChild(btn_Apply);
+    /*--------------------*/
 
     node.appendChild(node2);
     document.getElementsByClassName("event-lists")[0].appendChild(node);

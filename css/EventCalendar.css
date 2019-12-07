@@ -1,0 +1,90 @@
+.events{
+    margin-top: 150px;
+    height: 150px;
+}
+
+#Events_Title{
+    font-size: 30px;
+    text-align: center;
+}
+
+.row-body{
+    margin-top: 0px;
+}
+
+.nav-link links current{
+    alignment: center;
+}
+
+
+
+/* --------- Event Category Start ----------- */
+.category-mode{
+    text-align: center;
+    /* background-color: pink; */
+    margin: 0px 10px;
+}
+
+.sub-category-mode{
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #8bd4e6;
+}
+
+.sub-category-mode .far,
+.sub-category-mode .fas{
+    font-size: 25px;
+    color:  #8bd4e6;
+}
+
+.sub-category-mode .fab{
+    font-size: 30px;
+    color:  #8bd4e6;
+}
+
+.sub-category-mode .fab{
+    pointer-events: none;
+}
+
+.sub-category-mode .fab::before{
+    margin-left: -6px;
+    line-height: 1.8;
+}
+
+.sub-category-mode .far,
+.sub-category-mode .fas{
+    line-height: 1.8;
+}
+
+.sub-category-mode .fa-calendar-check,
+.sub-category-mode .fa-mug-hot,
+.sub-category-mode .fa-laptop{
+    line-height: 2.3;
+}
+
+.sub-category-mode .fab:hover{
+    color: #000;
+    background-color: none;
+}
+
+.sub-category-mode p{
+    font-size: 13px;
+    color:  #8bd4e6;
+}
+
+.upcoming-block{
+    margin-top: 20px;
+}
+
+.img-events{
+    object-fit: cover;
+}
+
+.card-subtext1{
+    font-size: 14px;
+}
+
+/* --------- Event Category Over ----------- */
