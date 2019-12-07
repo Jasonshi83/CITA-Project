@@ -80,7 +80,7 @@
 }
 .container-content{
   /* margin-top: 200px; */
-  background-color: pink;
+  /* background-color: pink; */
   /* height: 700px; */
   margin-top: -280px;
   max-width: 1180px;
@@ -103,7 +103,7 @@
 }
 
 .sidebar-menu {
-  background-color: coral;
+  /* background-color: coral; */
   margin: 0px 15px;
   margin-top: 60px;
 }
@@ -133,6 +133,26 @@
 .sidebar-desc{
   font-size: 12px;
 }
+
+/* .sidebar-menu i:hover{
+  color: #6cc9e0;
+} */
+
+.sidebar-menu .col-lg-6:hover{
+  color: #6cc9e0;
+}
+
+/* .sidebar-menu a:hover{
+  background-color: #6cc9e0;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.sidebar-menu a:hover i,
+.sidebar-menu a:hover p{
+  color: #fff;
+} */
 
 /* main section */
 .main-section-wrap{
@@ -213,6 +233,21 @@
   color:  #8bd4e6;
 }
 
+.upcoming-category a{
+  text-decoration: none;
+}
+
+.upcoming-category a:hover{
+  /* color: #fff; */
+  background-color: #6cc9e0;
+}
+
+.upcoming-category a:hover i,
+.upcoming-category a:hover p{
+  color: #fff;
+  /* background-color: #6cc9e0; */
+}
+
 .upcoming-block{
   margin-top: 20px;
 }
@@ -258,8 +293,74 @@
 
 /* jobs */
 .job-block{
-    background-color: pink;
+    /* background-color: pink; */
     margin: 10px 0px;
+    margin-left: 30px;
+    padding: 20px 20px;
+    position: relative;
+    padding-bottom: 0px;
+    background-color: #fff;
+    border: 1px solid #6cc9e0;
+}
+
+.job-block img{
+  width: 60px;
+  height: 60px;
+  margin-left: -50px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.job-block p{
+    font-size: 13px;
+}
+
+.job-block a{
+    color: #000;
+    text-decoration: none;
+    display:inline-block;
+    width: 80px;
+    font-size: 12px;
+    border: 2px solid #8bd4e6;
+    border-radius: 50px 50px;
+    text-align: center;
+    padding: 5px;
+}
+
+.job-block a:hover{
+    color: #fff;
+    background-color: #8bd4e6;
+    transition: all 0.3s ease-in;
+}
+
+.job-block span,
+.job-block .post-date{
+    font-size: 12px;
+}
+
+.job-block .post-date{
+    color: #bfbfbf;
+}
+
+.tag-category{
+  height: 60px;
+}
+
+.apply-btn a{
+  background-color: #8bd4e6;
+  border-radius: 50px 50px;
+  color: #fff;
+  width: 120px;
+  padding: 5px;
+}
+
+.apply-btn a:hover{
+  background-color: #6cc9e0;
+  color: #fff;
+}
+
+.job-block a{
+
 }
 
 /* learning-hub */
@@ -270,6 +371,15 @@
   border: none;
   border-radius: none;
   padding: 20px 0px;
+}
+
+.learning-hub .card-deck .card:hover{
+  background-color: #6cc9e0;
+  cursor: pointer;
+}
+
+.learning-hub .card-deck .card-text{
+  margin: 0 auto;
 }
 
 /* interest groups */
