@@ -75,10 +75,12 @@
               <div class="col-lg-6">
                 <i class="far fa-calendar-check"></i>
                 <p class="sidebar-desc">Past Events</p>
+                <a href="#" class="stretched-link"></a>
               </div>
               <div class="col-lg-6">
                 <i class="far fa-star"></i>
                 <p class="sidebar-desc">Favourites</p>
+                <a href="#" class="stretched-link"></a>
               </div>
             </div>
 
@@ -87,10 +89,12 @@
               <div class="col-lg-6">
                 <i class="fas fa-chalkboard-teacher"></i>
                 <p class="sidebar-desc">My Courses</p>
+                <a href="#" class="stretched-link"></a>
               </div>
               <div class="col-lg-6">
                 <i class="far fa-star"></i>
                 <p class="sidebar-desc">Favourites</p>
+                <a href="#" class="stretched-link"></a>
               </div>
             </div>
 
@@ -99,10 +103,12 @@
               <div class="col-lg-6">
                 <i class="fas fa-user-friends"></i>
                 <p class="sidebar-desc">My Groups</p>
+                <a href="#" class="stretched-link"></a>
               </div>
               <div class="col-lg-6">
                 <i class="far fa-star"></i>
                 <p class="sidebar-desc">Favourites</p>
+                <a href="#" class="stretched-link"></a>
               </div>
             </div>
             <!-- 1 of 2 -->
@@ -151,7 +157,7 @@
                   <a class="sub-category-mode" href="#">
                     <i class="fas fa-laptop"></i>
                     <p>Tech summit</p>
-                  </a>  
+                  </a>
                   <!-- </div> -->
                 </div>
               </div>

@@ -134,6 +134,26 @@
   font-size: 12px;
 }
 
+/* .sidebar-menu i:hover{
+  color: #6cc9e0;
+} */
+
+.sidebar-menu .col-lg-6:hover{
+  color: #6cc9e0;
+}
+
+/* .sidebar-menu a:hover{
+  background-color: #6cc9e0;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.sidebar-menu a:hover i,
+.sidebar-menu a:hover p{
+  color: #fff;
+} */
+
 /* main section */
 .main-section-wrap{
   background-color: #f7f7f7;
