@@ -103,6 +103,12 @@
   padding: 30px;
 }
 
+.upcoming-events,
+.jobs,
+.learning-hub{
+    margin: 30px 0px;
+}
+
 .card{
   border-radius: 0;
 }
@@ -122,12 +128,42 @@
   margin-top: 20px;
 }
 
-.image-left img{
-  width: 260px;
-}
-
 .img-events{
   object-fit: cover;
+}
+
+.card-subtext1{
+  font-size: 14px;
+}
+
+.fa-calendar,
+.fa-map-marker-alt{
+  color: #ee6445;
+  margin-right: 5px;
+}
+
+.events-date,
+.events-location{
+  font-size: 11px;
+}
+
+.event-attend{
+  font-size: 12px;
+}
+
+.event-btn{
+  text-align: center;
+}
+
+.event-attend{
+  background-color: #8bd4e6;
+  border-radius: 50px 50px;
+  color: #fff;
+}
+
+.event-attend:hover{
+  background-color: #6cc9e0;
+  color: #fff;
 }
 
 

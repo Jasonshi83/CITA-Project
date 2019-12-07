@@ -105,7 +105,7 @@
                 <p>Favourites</p>
               </div>
             </div>
-            1 of 2
+            <!-- 1 of 2 -->
           </div>
         </div>
         <div class="col-lg-9 main-section-wrap">
@@ -344,7 +344,7 @@ the ground up offers the chance to have real impact.</div>
             <!-- end interest groups -->
           </div>
           <!-- end main section -->
-          2 of 2
+          <!-- 2 of 2 -->
         </div>
         <!-- end wrap -->
       </div>
