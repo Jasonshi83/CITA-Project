@@ -9399,6 +9399,7 @@ Calendar.prototype._onClick = function(clickScheduleData) {
      * });
      */
     this.fire('clickSchedule', clickScheduleData);
+    console.log("hello");
 };
 
 /**
