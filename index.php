@@ -122,6 +122,34 @@
             <div class="event-subcontent">
               <h4>Upcoming Events</h4>
             </div>
+
+
+            <div class="row upcoming-category justify-content-md-center">
+                           <div class="col-2 category-mode my-event">
+                             <i class="far fa-calendar-check"></i>
+                             <p>My Events</p>
+                           </div>
+                           <div class="col-2 category-mode coffee">
+                             <i class="fas fa-mug-hot"></i>
+                             <p>Coffee</p>
+                           </div>
+                           <div class="col-2 category-mode meetup">
+                             <i class="fab fa-meetup"></i>
+                             <p>Meetup</p>
+                           </div>
+                           <div class="col-2 category-mode training-workshop">
+                             <i class="fas fa-chalkboard-teacher"></i>
+                             <p>Training &</br> workshop</p>
+                           </div>
+                           <div class="col-2 category-mode training-workshop">
+                             <i class="fas fa-laptop"></i>
+                             <p>Tech summit</p>
+                           </div>
+                         </div>
+
+
+
+
             <div class="event-lists">
               <!-- <p class="event-details">good</p> -->
             </div>
@@ -334,4 +362,6 @@
       xmlhttp.send();
     }
   </script> -->
+
+  <script src="https://kit.fontawesome.com/bdfac7b89e.js" crossorigin="anonymous"></script>
 </html>
