@@ -74,11 +74,11 @@
             <div class="row">
               <div class="col-lg-6">
                 <i class="far fa-calendar-check"></i>
-                <p>Past Events</p>
+                <p class="sidebar-desc">Past Events</p>
               </div>
               <div class="col-lg-6">
                 <i class="far fa-star"></i>
-                <p>Favourites</p>
+                <p class="sidebar-desc">Favourites</p>
               </div>
             </div>
 
@@ -86,11 +86,11 @@
             <div class="row">
               <div class="col-lg-6">
                 <i class="fas fa-chalkboard-teacher"></i>
-                <p>My Courses</p>
+                <p class="sidebar-desc">My Courses</p>
               </div>
               <div class="col-lg-6">
                 <i class="far fa-star"></i>
-                <p>Favourites</p>
+                <p class="sidebar-desc">Favourites</p>
               </div>
             </div>
 
@@ -98,14 +98,14 @@
             <div class="row">
               <div class="col-lg-6">
                 <i class="fas fa-user-friends"></i>
-                <p>My Groups</p>
+                <p class="sidebar-desc">My Groups</p>
               </div>
               <div class="col-lg-6">
                 <i class="far fa-star"></i>
-                <p>Favourites</p>
+                <p class="sidebar-desc">Favourites</p>
               </div>
             </div>
-            1 of 2
+            <!-- 1 of 2 -->
           </div>
         </div>
         <div class="col-lg-9 main-section-wrap">
@@ -344,7 +344,7 @@ the ground up offers the chance to have real impact.</div>
             <!-- end interest groups -->
           </div>
           <!-- end main section -->
-          2 of 2
+          <!-- 2 of 2 -->
         </div>
         <!-- end wrap -->
       </div>
