@@ -1,0 +1,17 @@
+.events{
+    margin-top: 150px;
+    height: 150px;
+}
+
+#Events_Title{
+    font-size: 30px;
+    text-align: center;
+}
+
+.row-body{
+    margin-top: 0px;
+}
+
+.nav-link links current{
+    alignment: center;
+}

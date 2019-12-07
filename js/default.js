@@ -17,12 +17,23 @@ function displayEvents(){
 
     var schedules = JSON.parse(this.responseText);
 
+    // if(schedules.)
+    // {
+    //
+    // }
+
   for(var i=0; i<4; i++){
 
     var node = document.createElement("div");
     node.className = 'card w-100';
     var node2 = document.createElement("div");
     node2.className = 'card-body';
+
+    var test = document.createElement("img");
+    test.className = 'card-title';
+    test.src = "images/ic-arrow-line-left.png";
+
+
     var title = document.createElement("h5");
     title.className = 'card-title';
     var content = document.createElement("p");
@@ -49,7 +60,7 @@ function displayEvents(){
     var category = "Category: "+schedules[i].category;
     var categorynode = document.createTextNode(category);
 
-    var btntext = "READ MORE"
+    var btntext = "READ MORE";
     var btnnode = document.createTextNode(btntext);
     // var btn = document.createElement("a");
     // btn.className = 'btn btn-primary';
@@ -66,6 +77,7 @@ function displayEvents(){
     content.appendChild(subcontent2);
     content.appendChild(subcontent3);
 
+    node2.appendChild(test);
     node2.appendChild(title);
     node2.appendChild(content);
     node2.appendChild(btn);
