@@ -162,6 +162,7 @@
                 </div>
               </div>
 
+              <!-- card with footer -->
               <!-- <div class="card">
                 <div class="row no-gutters">
                     <div class="col-auto">
