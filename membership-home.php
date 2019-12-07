@@ -451,7 +451,7 @@
     </footer>
   </body>
 
-  <!-- <script>
+  <script>
     //Get the button
     var scroll = document.getElementById("navbar");
 
@@ -461,8 +461,11 @@
     function scrollFunction() {
       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         scroll.style.borderBottom = "1px solid #e6e6e6";
+        scroll.style.backgroundColor = "#01144c";
       } else {
         scroll.style.border = "none";
+        scroll.style.backgroundColor = "transparent";
+        scroll.style.transition= "all 0.2s ease-in";
       }
     }
 
@@ -471,7 +474,7 @@
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
     }
-  </script> -->
+  </script>
 
 
   <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
