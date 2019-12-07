@@ -136,7 +136,26 @@
                 </div>
               </div>
 
-              <div class="row upcoming-block">
+              <!-- <div class="card">
+                <div class="row no-gutters">
+                    <div class="col-auto">
+                        <img src=".\css\assets\interest-groups1.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col">
+                        <div class="card-block px-2">
+                            <h4 class="card-title">Title</h4>
+                            <p class="card-text">Description</p>
+                            <a href="#" class="btn btn-primary">BUTTON</a>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="card-footer w-100 text-muted">
+                    Footer stating cats are CUTE little animals
+                </div> -->
+              <!-- </div> -->
+
+
+              <!-- <div class="row upcoming-block">
                 <div class="col-lg-12">
                   <div class="row">
                     <div class="col-lg-4 image-left">
@@ -192,7 +211,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
 
             </div>
 
@@ -513,4 +532,5 @@ the ground up offers the chance to have real impact.</div>
     }
   </script> -->
   <script src="https://kit.fontawesome.com/bdfac7b89e.js" crossorigin="anonymous"></script>
+  <script src="./js/events.js"></script>
 </html>
