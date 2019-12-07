@@ -158,11 +158,11 @@
                             <a href="#" class="btn btn-primary">BUTTON</a>
                         </div>
                     </div>
-                </div> -->
-                <!-- <div class="card-footer w-100 text-muted">
+                </div>
+                <div class="card-footer w-100 text-muted">
                     Footer stating cats are CUTE little animals
-                </div> -->
-              <!-- </div> -->
+                </div>
+              </div> -->
 
 
               <!-- <div class="row upcoming-block">
@@ -229,10 +229,14 @@
             <div class="jobs">
               <h3 class="content-title">Jobs</h3>
               <div class="row job-block">
+                <!-- <div class="col-lg-1">
+                    <img  src=".\css\assets\job1.png" alt="xero logo">
+                </div> -->
+                <img  src=".\css\assets\job1.png" alt="xero logo">
                 <div class="col-lg-12 col-sm-4">
                   <div class="row">
                     <div class="col-lg-9">
-                      Senior Front-end Developer
+                      <h5>Senior Front-end Developer</h5>
                     </div>
                     <div class="col-lg-3">
                       <i class="fas fa-map-marker-alt"></i>
@@ -240,28 +244,33 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-12 col-sm-4">Join us to build the future of payments in Rust! TenX is building a payment platform in the cloud to allow our customers to spend blockchain assets at any merchant that accepts payment cards.</div>
                 <div class="col-lg-12 col-sm-4">
-                  <div class="row">
+                  <p>Join us to build the future of payments in Rust! TenX is building a payment platform in the cloud to allow our customers to spend blockchain assets at any merchant that accepts payment cards.</p>
+                </div>
+                <div class="col-lg-12 col-sm-4">
+                  <div class="row tag-category">
                     <div class="col-lg-9">
-                      <button type="button" name="button">AWS</button>
-                      <button type="button" name="button">Python</button>
-                      <button type="button" name="button">Java</button>
+                      <a href="#">AWS</a>
+                      <a href="#">Python</a>
+                      <a href="#">Java</a>
                     </div>
                     <div class="col-lg-3">
                       <p>Rui Feng</br>+64 20 871 4576</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-12 col-sm-4">Posted 1 week ago</div>
+                <div class="col-lg-12 col-sm-4">
+                  <p class="post-date">Posted 1 week ago</p>
+                </div>
                 <!-- <div class="col-6 col-sm-4">.col-6 .col-sm-4</div> -->
               </div>
 
               <div class="row job-block">
+                <img  src=".\css\assets\job2.png" alt="weta digital logo">
                 <div class="col-lg-12 col-sm-4">
                   <div class="row">
                     <div class="col-lg-9">
-                      User Experience Designer
+                      <h5>User Experience Designer</h5>
                     </div>
                     <div class="col-lg-3">
                       <i class="fas fa-map-marker-alt"></i>
@@ -269,23 +278,27 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-12 col-sm-4">You’ll be instrumental in developing the tools used by Weta’s production crew to support, track and
-forecast the production of our work. This is an opportunity to help form a new team; being involved from
-the ground up offers the chance to have real impact.</div>
                 <div class="col-lg-12 col-sm-4">
-                  <div class="row">
+                  <p>You’ll be instrumental in developing the tools used by Weta’s production crew to support, track and
+                    forecast the production of our work. This is an opportunity to help form a new team; being involved from
+                    the ground up offers the chance to have real impact.</p>
+                </div>
+                <div class="col-lg-12 col-sm-4">
+                  <div class="row tag-category">
                     <div class="col-lg-9">
-                      <button type="button" name="button">Research</button>
-                      <button type="button" name="button">UX</button>
-                      <button type="button" name="button">UI</button>
-                      <button type="button" name="button">Interaction</button>
+                      <a href="#">Research</a>
+                      <a href="#">UX</a>
+                      <a href="#">UI</a>
+                      <a href="#">Interaction</a>
                     </div>
-                    <div class="col-lg-3">
-                      <button type="button" name="button">APPLY HERE</button>
+                    <div class="col-lg-3 apply-btn">
+                      <a href="#">APPLY HERE</a>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-12 col-sm-4">Posted 1 week ago</div>
+                <div class="col-lg-12 col-sm-4">
+                  <p class="post-date">Posted 1 week ago</p>
+                </div>
                 <!-- <div class="col-6 col-sm-4">.col-6 .col-sm-4</div> -->
               </div>
 
@@ -297,7 +310,7 @@ the ground up offers the chance to have real impact.</div>
               <div class="card-deck">
                 <div class="card">
                   <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
-                  <div class="card-body">
+                  <div class="card-body d-flex align-items-center">
                     <!-- <h5 class="card-title">Card title</h5> -->
                     <p class="card-text">User </br>Experience</br> Design</p>
                     <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
@@ -305,7 +318,7 @@ the ground up offers the chance to have real impact.</div>
                 </div>
                 <div class="card">
                   <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
-                  <div class="card-body">
+                  <div class="card-body d-flex align-items-center">
                     <!-- <h5 class="card-title">Card title</h5> -->
                     <p class="card-text">Front-end </br>Development</p>
                     <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
@@ -313,7 +326,7 @@ the ground up offers the chance to have real impact.</div>
                 </div>
                 <div class="card">
                   <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
-                  <div class="card-body">
+                  <div class="card-body d-flex align-items-center">
                     <!-- <h5 class="card-title">Card title</h5> -->
                     <p class="card-text">Business </br>Analysis</p>
                     <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
