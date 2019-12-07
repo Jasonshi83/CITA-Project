@@ -74,7 +74,7 @@ function showEvents(){
     var category = "Category: "+schedules[i].category;
     var categorynode = document.createTextNode(category);
 
-    var btntext = "ATTENDING"
+    var btntext = "ATTENDING";
     var btnnode = document.createTextNode(btntext);
     btn.appendChild(btnnode);
 

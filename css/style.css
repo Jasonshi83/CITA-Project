@@ -125,6 +125,14 @@
   text-decoration: none;
 }
 
+.apply:hover{
+  text-align: center;
+  display: inline-block;
+  background-color: #008ffe;
+  color: #fff;
+  text-decoration: none;
+}
+
 /* footer */
 footer{
   color: #fff;

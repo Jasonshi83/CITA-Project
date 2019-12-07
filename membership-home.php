@@ -135,7 +135,7 @@
                 <div class="col-2 category-mode d-flex align-items-center training-workshop">
                   <div class="sub-category-mode">
                     <i class="fas fa-chalkboard-teacher"></i>
-                    <p>Training &</br> workshop</p>
+                    <p>Training &</br>workshop</p>
                   </div>
                 </div>
                 <div class="col-2 category-mode d-flex align-items-center training-workshop">

@@ -53,25 +53,57 @@
     <div class="events">
         <h4 id="Events_Title">Events</h4>
         <div class="row upcoming-category justify-content-md-center">
+<!--            <div class="col-2 category-mode my-event">-->
+<!--                <i class="far fa-calendar-check"></i>-->
+<!--                <p>My Events</p>-->
+<!--            </div>-->
+<!--            <div class="col-2 category-mode coffee">-->
+<!--                <i class="fas fa-mug-hot"></i>-->
+<!--                <p>Coffee</p>-->
+<!--            </div>-->
+<!--            <div class="col-2 category-mode meetup">-->
+<!--                <i class="fab fa-meetup"></i>-->
+<!--                <p>Meetup</p>-->
+<!--            </div>-->
+<!--            <div class="col-2 category-mode training-workshop">-->
+<!--                <i class="fas fa-chalkboard-teacher"></i>-->
+<!--                <p>Training &</br> workshop</p>-->
+<!--            </div>-->
+<!--            <div class="col-2 category-mode training-workshop">-->
+<!--                <i class="fas fa-laptop"></i>-->
+<!--                <p>Tech summit</p>-->
+<!--            </div>-->
+
+
             <div class="col-2 category-mode my-event">
-                <i class="far fa-calendar-check"></i>
-                <p>My Events</p>
+                <div class="sub-category-mode">
+                    <i class="far fa-calendar-check"></i>
+                    <p>My Events</p>
+                </div>
             </div>
             <div class="col-2 category-mode coffee">
-                <i class="fas fa-mug-hot"></i>
-                <p>Coffee</p>
+                <div class="sub-category-mode">
+                    <i class="fas fa-mug-hot"></i>
+                    <p>Coffee</p>
+                </div>
             </div>
             <div class="col-2 category-mode meetup">
-                <i class="fab fa-meetup"></i>
-                <p>Meetup</p>
+                <div class="sub-category-mode">
+                    <i class="fab fa-meetup"></i>
+                    <p>Meetup</p>
+                </div>
             </div>
             <div class="col-2 category-mode training-workshop">
-                <i class="fas fa-chalkboard-teacher"></i>
-                <p>Training &</br> workshop</p>
+                <div class="sub-category-mode">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <p>Training &</br> workshop</p>
+                </div>
             </div>
-            <div class="col-2 category-mode training-workshop">
-                <i class="fas fa-laptop"></i>
-                <p>Tech summit</p>
+            <div class="col-2 category-mode d-flex align-items-center training-workshop">
+                <div class="sub-category-mode">
+                    <i class="fas fa-laptop"></i>
+                    <p>Tech summit</p>
+                </div>
             </div>
         </div>
 
@@ -366,4 +398,5 @@
 </script> -->
 
 <script src="https://kit.fontawesome.com/bdfac7b89e.js" crossorigin="anonymous"></script>
+<script src=""></script>
 </html>
