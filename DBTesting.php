@@ -31,9 +31,7 @@
         $user->start = $row["EventStart"];
         $user->end = $row["EventEnd"];
         $user->isReadOnly = "true";
-        $user->address = $row["address"];
-        $user->city = $row["city"];
-        $user->detailDesc = $row["DetailDesc"];
+
         $data[] = $user;
         }
         $json = json_encode($data);
