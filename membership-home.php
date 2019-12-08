@@ -42,7 +42,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <img src=".\css\assets\login-avatar-small.png" alt="login-avatar">
+                <img src="images\login-avatar-small.png" alt="login-avatar">
               </a>
             </li>
           </ul>
@@ -66,7 +66,7 @@
       <div class="row row-content-wrap">
         <div class="col-lg-3">
           <div class="login-profile">
-              <img src=".\css\assets\login-avatar-large.png" alt="login-avatar">
+              <img src="images\login-avatar-large.png" alt="login-avatar">
               <p class="user-name">STEPHANIE LI</p>
           </div>
           <div class="sidebar-menu">
@@ -249,7 +249,7 @@
                 <!-- <div class="col-lg-1">
                     <img  src=".\css\assets\job1.png" alt="xero logo">
                 </div> -->
-                <img  src=".\css\assets\job1.png" alt="xero logo">
+                <img  src="images\job1.png" alt="xero logo">
                 <div class="col-lg-12 col-sm-4">
                   <div class="row">
                     <div class="col-lg-9">
@@ -283,7 +283,7 @@
               </div>
 
               <div class="row job-block">
-                <img  src=".\css\assets\job2.png" alt="weta digital logo">
+                <img  src="images\job2.png" alt="weta digital logo">
                 <div class="col-lg-12 col-sm-4">
                   <div class="row">
                     <div class="col-lg-9">
@@ -359,7 +359,7 @@
               <h3 class="content-title">Interest Groups</h3>
               <div class="card-deck">
                 <div class="card">
-                  <img class="card-img-top" src=".\css\assets\interest-groups1.png" alt="Card image cap">
+                  <img class="card-img-top" src="images\interest-groups1.png" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Hiking Group</h5>
                     <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -368,7 +368,7 @@
                   <a href="#" class="stretched-link"></a>
                 </div>
                 <div class="card">
-                  <img class="card-img-top" src=".\css\assets\interest-groups2.png" alt="Card image cap">
+                  <img class="card-img-top" src="images\interest-groups2.png" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">UX Group</h5>
                     <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -377,7 +377,7 @@
                   <a href="#" class="stretched-link"></a>
                 </div>
                 <div class="card">
-                  <img class="card-img-top" src=".\css\assets\interest-groups3.png" alt="Card image cap">
+                  <img class="card-img-top" src="images\interest-groups3.png" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Python Group</h5>
                     <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>

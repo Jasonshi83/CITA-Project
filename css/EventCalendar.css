@@ -88,3 +88,56 @@
 }
 
 /* --------- Event Category Over ----------- */
+
+
+
+/* --------- Even Calendar card start -------------*/
+.event-lists .card{
+  border: 2px solid #8bd4e6;
+}
+
+.icon-category{
+  font-size: 25px;
+  margin-bottom: 10px;
+  background-color: #8bd4e6;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.date-location{
+  margin: 10px 0px;
+}
+
+.date-location .col-lg-7{
+  margin-left: -15px;
+}
+
+.date-location .col-lg-5{
+  text-align: right;
+}
+
+.date-location i,
+.date-location span{
+  color: #a6a6a6;
+}
+
+.date-location i{
+  margin-right: 5px;
+}
+
+.event-lists .card-subtext1{
+  font-size: 12px;
+}
+
+.total-attendee{
+  margin-top: 20px;
+  color: #a6a6a6;
+}
+
+.attendees-avatar{
+  width: 40px;
+  height: 40px;
+  margin-right: 3px;
+}
+/* --------- Even Calendar card over -------------*/
