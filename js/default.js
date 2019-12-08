@@ -105,13 +105,13 @@ function displayEvents(){
     // var btnnode_Apply = document.createTextNode(btntext_Apply);
     // btn_Apply.appendChild(btnnode_Apply);
 
-    var locationdetail = "Wellington";
+    var locationdetail = schedules[i].address;
     var locatiodetailnnode = document.createTextNode(locationdetail);
 
     var totalattendees = "20 attendees";
     var totalnode = document.createTextNode(totalattendees);
 
-    var detaildesc = schedules[i].ShortDesc;
+    var detaildesc = schedules[i].detailDesc;
     var detaildescnode = document.createTextNode(detaildesc);
 
     title.appendChild(titlenode);
