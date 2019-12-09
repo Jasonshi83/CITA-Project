@@ -275,26 +275,31 @@ function showEvents(selectedCategory){
 
   };
 
+
   if(selectedCategory=="myevents"){
     oReq.open("get","UpcomingEvent.php",true);
     oReq.send();
     // document.getElementsByClassName("user-name")[0].textContent = selectedCategory;
   }
+
   else if(selectedCategory=="coffee"){
     oReq.open("get","UpcomingEvent_Coffee.php",true);
     oReq.send();
     // document.getElementsByClassName("user-name")[0].textContent = selectedCategory;
   }
+
   else if(selectedCategory=="meetup"){
     oReq.open("get","UpcomingEvent_Meetup.php",true);
     oReq.send();
     // document.getElementsByClassName("user-name")[0].textContent = selectedCategory;
   }
+
   else if(selectedCategory=="training"){
     oReq.open("get","UpcomingEvent_Training.php",true);
     oReq.send();
     // document.getElementsByClassName("user-name")[0].textContent = selectedCategory;
   }
+  
   else if(selectedCategory=="techsummit"){
     oReq.open("get","UpcomingEvent_TechSummit.php",true);
     oReq.send();
