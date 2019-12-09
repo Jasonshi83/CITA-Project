@@ -1,152 +1,14 @@
 
-
-
 function init() {
   cal.setCalendars(CalendarList);
 
   setRenderRangeText();
   setSchedules();
   setEventListener();
-  displayEvents();
+  // displayEvents();
 }
 
-function displayEvents(){
 
-  var oReq = new XMLHttpRequest();
-  oReq.onload = function() {
-
-    var schedules = JSON.parse(this.responseText);
-
-  for(var i=0; i<3; i++){
-
-    var node = document.createElement("div");
-    node.className = 'card w-100';
-    var node2 = document.createElement("div");
-    node2.className = 'card-body';
-    var node3 = document.createElement("div");
-    node3.className = 'row date-location';
-    var node3Sub1 = document.createElement("div");
-    node3Sub1.className = 'col-lg-7';
-    var node3Sub2 = document.createElement("div");
-    node3Sub2.className = 'col-lg-5';
-
-    var node4 = document.createElement("div");
-    node4.className = 'row attendees';
-    var node4Sub1 = document.createElement("div");
-    node4Sub1.className = 'col-lg-7';
-    var node4Sub2 = document.createElement("div");
-    node4Sub2.className = 'col-lg-5';
-
-
-    var iconcategory = document.createElement("i");
-    iconcategory.className = 'fas fa-mug-hot icon-category';
-    var locationicon = document.createElement("i");
-    locationicon.className = 'fas fa-map-marker-alt';
-    var locationdesc = document.createElement("span");
-    locationdesc.className = 'location-desc';
-
-
-    var title = document.createElement("h5");
-    title.className = 'card-title';
-    var content = document.createElement("p");
-    content.className = 'card-text';
-
-    var attendee = document.createElement("p");
-    attendee.className = 'total-attendee';
-
-    var attendee1 = document.createElement("img");
-    attendee1.className = 'attendees-avatar';
-    attendee1.src = "images/login-avatar-small.png";
-    var attendee2 = document.createElement("img");
-    attendee2.className = 'attendees-avatar';
-    attendee2.src = "images/avatar-small2.png";
-    var attendee3 = document.createElement("img");
-    attendee3.className = 'attendees-avatar';
-    attendee3.src = "images/avatar-small3.png";
-
-    // var btn = document.createElement("a");
-    // btn.className = 'btn btn-primary read-more';
-    // btn.href ="#";
-
-    /*Added for button "apply"*/
-    // var btn_Apply = document.createElement("a");
-    // btn_Apply.className = 'btn btn-primary apply';
-    // btn_Apply.href ="#";
-    /*-----------------------*/
-
-    var subcontent1 = document.createElement("p");
-    subcontent1.className = 'card-subtext1';
-    var subcontent2 = document.createElement("p");
-    subcontent2.className = 'card-subtext2';
-    var subcontent3 = document.createElement("p");
-    subcontent3.className = 'card-subtext3';
-
-    var titletext = schedules[i].title;
-    var titlenode = document.createTextNode(titletext);
-
-    // var text = "Start time: "+schedules[i].start+"End time: "+schedules[i].end+"</br>"
-    // var textnode = document.createTextNode(text);
-    // var start = "Start time: "+schedules[i].start;
-    var start = "Start time: "+schedules[i].start;
-    var startnode = document.createTextNode(start);
-    // var end = "End time: "+schedules[i].end;
-    // var end = "End time: ";
-    // var endnode = document.createTextNode(end);
-    // var category = "Category: "+schedules[i].category;
-    // var category = "Category: ";
-    // var categorynode = document.createTextNode(category);
-
-    // var btntext = "READ MORE";
-    // var btnnode = document.createTextNode(btntext);
-    // btn.appendChild(btnnode);
-
-    /*Added text for button "apply"*/
-    // var btntext_Apply = "ATTENDING";
-    // var btnnode_Apply = document.createTextNode(btntext_Apply);
-    // btn_Apply.appendChild(btnnode_Apply);
-
-    var locationdetail = schedules[i].address;
-    var locatiodetailnnode = document.createTextNode(locationdetail);
-
-    var totalattendees = "Attendee Limit: " + schedules[i].AttendeeLimit;
-    var totalnode = document.createTextNode(totalattendees);
-
-    var detaildesc = schedules[i].detailDesc;
-    var detaildescnode = document.createTextNode(detaildesc);
-
-    title.appendChild(titlenode);
-    subcontent1.appendChild(detaildescnode);
-    content.appendChild(subcontent1);
-    locationdesc.appendChild(locatiodetailnnode);
-    attendee.appendChild(totalnode);
-
-    node4Sub2.appendChild(attendee1);
-    node4Sub2.appendChild(attendee2);
-    node4Sub2.appendChild(attendee3);
-    node4Sub1.appendChild(attendee);
-    node4.appendChild(node4Sub1);
-    node4.appendChild(node4Sub2);
-
-    node3Sub2.appendChild(locationicon);
-    node3Sub2.appendChild(locationdesc);
-    node3Sub1.appendChild(startnode);
-    node3.appendChild(node3Sub1);
-    node3.appendChild(node3Sub2);
-
-    node2.appendChild(iconcategory);
-    node2.appendChild(node3);
-    node2.appendChild(title);
-    node2.appendChild(content);
-    node2.appendChild(node4);
-
-    node.appendChild(node2);
-    document.getElementsByClassName("event-lists")[0].appendChild(node);
-  }
-  };
-  // if()
-  oReq.open("get","UpcomingEvent.php",true);
-  oReq.send();
-}
 
 function getDataAction(target) {
   return target.dataset ? target.dataset.action : target.getAttribute('data-action');
@@ -281,40 +143,6 @@ function setSchedules() {
   cal.clear();
   generateSchedule(cal.getViewName(), cal.getDateRangeStart(), cal.getDateRangeEnd());
   cal.createSchedules(ScheduleList);
-
-  // var schedules = [
-  //   {id: 489273, title: 'Dev Team dinner party', isAllDay: false, start: '2019-12-10T11:30:00+13:00', end: '2019-12-10T12:00:00+13:00', goingDuration: 30, comingDuration: 30, color: '#ffffff', isVisible: true, bgColor: '#69BB2D', dragBgColor: '#69BB2D', borderColor: '#69BB2D', calendarId: 'logged-workout', category: 'time', dueDateClass: '', customStyle: 'cursor: default;', isPending: false, isFocused: false, isReadOnly: true, isPrivate: false, location: '', attendees: '', recurrenceRule: '', state: ''},
-  //   {id: 18073, title: 'Jason will get a free meal on that day', isAllDay: false, start: '2019-12-20T09:00:00+13:00', end: '2019-12-20T10:00:00+13:00', color: '#ffffff', isVisible: true, bgColor: '#54B8CC', dragBgColor: '#54B8CC', borderColor: '#54B8CC', calendarId: 'workout', category: 'time', dueDateClass: '', customStyle: '', isPending: false, isFocused: false, isReadOnly: false, isPrivate: false, location: '', attendees: '', recurrenceRule: '', state: ''},
-  //   {
-  //     id: '1',
-  //     calendarId: '1',
-  //     title: 'Happy Christmas!!',
-  //     category: 'time',
-  //     dueDateClass: '',
-  //     start: '2019-12-24T10:30:00+13:00',
-  //     end: '2019-12-24T12:30:00+13:00'
-  //   },
-  //   {
-  //     id: '3',
-  //     calendarId: '1',
-  //     title: 'Testing!!',
-  //     category: 'time',
-  //     dueDateClass: '',
-  //     start: '2019-12-24T13:30:00+13:00',
-  //     end: '2019-12-24T14:30:00+13:00'
-  //   },
-  //   {
-  //     id: '2',
-  //     calendarId: '1',
-  //     title: 'Where is my Christmas gift??!!',
-  //     category: 'time',
-  //     dueDateClass: '',
-  //     start: '2019-12-25T10:30:00+13:00',
-  //     end: '2019-12-25T12:30:00+13:00'
-  //   }
-  // ];
-
-
 
   //Pass Php file to variable in JS file.
   var oReq = new XMLHttpRequest();

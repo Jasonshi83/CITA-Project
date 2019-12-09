@@ -135,27 +135,27 @@ function showEvents(selectedCateory){
   };
 
   if(selectedCateory=="myevents"){
-    oReq.open("get","MyEvents.php",true);
+    oReq.open("get","UpcomingEvent.php",true);
     oReq.send();
     // document.getElementsByClassName("user-name")[0].textContent = selectedCateory;
   }
   else if(selectedCateory=="coffee"){
-    oReq.open("get","Coffee.php",true);
+    oReq.open("get","UpcomingEvent_Coffee.php",true);
     oReq.send();
     // document.getElementsByClassName("user-name")[0].textContent = selectedCateory;
   }
   else if(selectedCateory=="meetup"){
-    oReq.open("get","Meetup.php",true);
+    oReq.open("get","UpcomingEvent_Meetup.php",true);
     oReq.send();
     // document.getElementsByClassName("user-name")[0].textContent = selectedCateory;
   }
   else if(selectedCateory=="training"){
-    oReq.open("get","Training.php",true);
+    oReq.open("get","UpcomingEvent_Training.php",true);
     oReq.send();
     // document.getElementsByClassName("user-name")[0].textContent = selectedCateory;
   }
   else if(selectedCateory=="techsummit"){
-    oReq.open("get","TechSummit.php",true);
+    oReq.open("get","UpcomingEvent_TechSummit.php",true);
     oReq.send();
     // document.getElementsByClassName("user-name")[0].textContent = selectedCateory;
   }

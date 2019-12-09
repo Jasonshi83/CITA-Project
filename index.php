@@ -348,7 +348,7 @@
     useDetailPopup: true
   });
   </script>
-  <script src="./js/default.js"></script>
+  <script src="js/calendar.js"></script>
   <!-- <script type="text/javascript">
     function loadJson2(){
       var xmlhttp = new XMLHttpRequest();

@@ -55,101 +55,47 @@
     <div class="events">
         <h4 id="Events_Title">Events</h4>
         <div class="row upcoming-category justify-content-md-center">
-<!--            <div class="col-2 category-mode my-event">-->
-<!--                <i class="far fa-calendar-check"></i>-->
-<!--                <p>My Events</p>-->
-<!--            </div>-->
-<!--            <div class="col-2 category-mode coffee">-->
-<!--                <i class="fas fa-mug-hot"></i>-->
-<!--                <p>Coffee</p>-->
-<!--            </div>-->
-<!--            <div class="col-2 category-mode meetup">-->
-<!--                <i class="fab fa-meetup"></i>-->
-<!--                <p>Meetup</p>-->
-<!--            </div>-->
-<!--            <div class="col-2 category-mode training-workshop">-->
-<!--                <i class="fas fa-chalkboard-teacher"></i>-->
-<!--                <p>Training &</br> workshop</p>-->
-<!--            </div>-->
-<!--            <div class="col-2 category-mode training-workshop">-->
-<!--                <i class="fas fa-laptop"></i>-->
-<!--                <p>Tech summit</p>-->
-<!--            </div>-->
-
-
-            <div class="col-2 category-mode d-flex align-items-center my-event">
+            <div class="col-2 category-mode d-flex align-items-center my-event" onclick="myFunction('myevents')">
                 <!-- <div class="sub-category-mode"> -->
                 <a class="sub-category-mode" href="#">
                     <i class="far fa-calendar-check"></i>
-                    <p>My Events</p>
+                    <p class="category-desc">My Events</p>
                 </a>
                 <!-- </div> -->
             </div>
-            <div class="col-2 category-mode d-flex align-items-center coffee">
+            <div class="col-2 category-mode d-flex align-items-center coffee" onclick="myFunction('coffee')">
                 <!-- <div class="sub-category-mode"> -->
                 <a class="sub-category-mode" href="#">
                     <i class="fas fa-mug-hot"></i>
-                    <p>Coffee</p>
+                    <p class="category-desc">Coffee</p>
                 </a>
                 <!-- </div> -->
             </div>
-            <div class="col-2 category-mode d-flex align-items-center meetup">
+            <div class="col-2 category-mode d-flex align-items-center meetup" onclick="myFunction('meetup')">
                 <!-- <div class="sub-category-mode"> -->
                 <a class="sub-category-mode" href="#">
                     <i class="fab fa-meetup"></i>
-                    <p>Meetup</p>
+                    <p class="category-desc">Meetup</p>
                 </a>
                 <!-- </div> -->
             </div>
-            <div class="col-2 category-mode d-flex align-items-center training-workshop">
+            <div class="col-2 category-mode d-flex align-items-center training-workshop" onclick="myFunction('training')">
                 <!-- <div class="sub-category-mode"> -->
                 <a class="sub-category-mode" href="#">
                     <i class="fas fa-chalkboard-teacher"></i>
-                    <p>Training &</br> workshop</p>
+                    <p class="category-desc">Training &</br> workshop</p>
                 </a>
                 <!-- </div> -->
             </div>
-            <div class="col-2 category-mode d-flex align-items-center training-workshop">
+            <div class="col-2 category-mode d-flex align-items-center training-workshop" onclick="myFunction('techsummit')">
                 <!-- <div class="sub-category-mode"> -->
                 <a class="sub-category-mode" href="#">
                     <i class="fas fa-laptop"></i>
-                    <p>Tech summit</p>
+                    <p class="category-desc">Tech summit</p>
                 </a>
                 <!-- </div> -->
             </div>
 
-
-
-<!--            <div class="col-2 category-mode my-event">-->
-<!--                <div class="sub-category-mode">-->
-<!--                    <i class="far fa-calendar-check"></i>-->
-<!--                    <p>My Events</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-2 category-mode coffee">-->
-<!--                <div class="sub-category-mode">-->
-<!--                    <i class="fas fa-mug-hot"></i>-->
-<!--                    <p>Coffee</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-2 category-mode meetup">-->
-<!--                <div class="sub-category-mode">-->
-<!--                    <i class="fab fa-meetup"></i>-->
-<!--                    <p>Meetup</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-2 category-mode training-workshop">-->
-<!--                <div class="sub-category-mode">-->
-<!--                    <i class="fas fa-chalkboard-teacher"></i>-->
-<!--                    <p>Training &</br> workshop</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-2 category-mode d-flex align-items-center training-workshop">-->
-<!--                <div class="sub-category-mode">-->
-<!--                    <i class="fas fa-laptop"></i>-->
-<!--                    <p>Tech summit</p>-->
-<!--                </div>-->
-<!--            </div>-->
         </div>
 
     </div>
@@ -427,8 +373,9 @@
         useDetailPopup: true
     });
 </script>
-<script src="./js/default.js"></script>
+<script src="js/calendar.js"></script>
+<script src="js/UpcomingEvent.js"></script>
 
 <script src="https://kit.fontawesome.com/bdfac7b89e.js" crossorigin="anonymous"></script>
-<script src=""></script>
+<!--<script src=""></script>-->
 </html>
