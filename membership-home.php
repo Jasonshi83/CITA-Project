@@ -120,43 +120,43 @@
               <h3 class="content-title">Upcoming Events</h3>
 
               <div class="row upcoming-category justify-content-center">
-                <div class="col-2 category-mode d-flex align-items-center my-event">
+                <div class="col-2 category-mode d-flex align-items-center my-event" onclick="myFunction('myevents')">
                   <!-- <div class="sub-category-mode"> -->
                     <a class="sub-category-mode" href="#">
                     <i class="far fa-calendar-check"></i>
-                    <p>My Events</p>
+                    <p class="category-desc">My Events</p>
                     </a>
                   <!-- </div> -->
                 </div>
-                <div class="col-2 category-mode d-flex align-items-center coffee">
+                <div class="col-2 category-mode d-flex align-items-center coffee" onclick="myFunction('coffee')">
                   <!-- <div class="sub-category-mode"> -->
                   <a class="sub-category-mode" href="#">
                     <i class="fas fa-mug-hot"></i>
-                    <p>Coffee</p>
+                    <p class="category-desc">Coffee</p>
                   </a>
                   <!-- </div> -->
                 </div>
-                <div class="col-2 category-mode d-flex align-items-center meetup">
+                <div class="col-2 category-mode d-flex align-items-center meetup" onclick="myFunction('meetup')">
                   <!-- <div class="sub-category-mode"> -->
                   <a class="sub-category-mode" href="#">
                     <i class="fab fa-meetup"></i>
-                    <p>Meetup</p>
+                    <p class="category-desc">Meetup</p>
                   </a>
                   <!-- </div> -->
                 </div>
-                <div class="col-2 category-mode d-flex align-items-center training-workshop">
+                <div class="col-2 category-mode d-flex align-items-center training-workshop" onclick="myFunction('training')">
                   <!-- <div class="sub-category-mode"> -->
                   <a class="sub-category-mode" href="#">
                     <i class="fas fa-chalkboard-teacher"></i>
-                    <p>Training &</br> workshop</p>
+                    <p class="category-desc">Training &</br> workshop</p>
                   </a>
                   <!-- </div> -->
                 </div>
-                <div class="col-2 category-mode d-flex align-items-center training-workshop">
+                <div class="col-2 category-mode d-flex align-items-center training-workshop" onclick="myFunction('techsummit')">
                   <!-- <div class="sub-category-mode"> -->
                   <a class="sub-category-mode" href="#">
                     <i class="fas fa-laptop"></i>
-                    <p>Tech summit</p>
+                    <p class="category-desc">Tech summit</p>
                   </a>
                   <!-- </div> -->
                 </div>
@@ -582,4 +582,5 @@
   </script> -->
   <script src="https://kit.fontawesome.com/bdfac7b89e.js" crossorigin="anonymous"></script>
   <script src="./js/events.js"></script>
+  <script src="./js/categorySelected.js"></script>
 </html>
