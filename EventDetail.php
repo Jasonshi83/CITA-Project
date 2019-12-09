@@ -38,12 +38,42 @@
             </li>
           </ul>
         </div>
-      </div>
+        </div>
     </nav>
+    
 
+    <div class="container" id="maincontainer">
+
+        <div class="row" id="bannerrow">
+
+            <div class="card mb-5" >
+               
+            <div class="row no-gutters">
+                    <div class="col-lg-8">
+                        <img src="https://icatcare.org/app/uploads/2018/09/Scottish-fold.png" class="card-img" alt="...">
+                    </div>
+            <div class="col-lg-4">
+                <div class="card-body">
+                    <h1 class="card-title">Kake and Kotlinddddddddddddd</h1>
+                    <p class="card-text">13th February, 2020</p>
+                    <p class="card-text">14:00 - 18:00</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        </div>
+
+    <div class="row" id="bodyrow">
+        <div class="col-lg-8" id="descriptiondiv">
+        
+        </div>
+        <div class="col-lg-4" id="details">
+    </div>
+    </div>
   
-<!--TEST-->
 
+</div> <!--UNSURE WhAT THIS LINKS TO -->
     <footer class="footer">
       <div class="container footer-wrap">
         <div class="row">
