@@ -14,6 +14,8 @@
     <link rel="stylesheet" type="text/css" href="./css/icons.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/EventCalendar.css">
+<!--    <link rel="stylesheet" href="./css/membership-homepage.css">-->
+
 </head>
 <body>
 <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="navbar">
@@ -75,36 +77,79 @@
 <!--            </div>-->
 
 
-            <div class="col-2 category-mode my-event">
-                <div class="sub-category-mode">
+            <div class="col-2 category-mode d-flex align-items-center my-event">
+                <!-- <div class="sub-category-mode"> -->
+                <a class="sub-category-mode" href="#">
                     <i class="far fa-calendar-check"></i>
                     <p>My Events</p>
-                </div>
+                </a>
+                <!-- </div> -->
             </div>
-            <div class="col-2 category-mode coffee">
-                <div class="sub-category-mode">
+            <div class="col-2 category-mode d-flex align-items-center coffee">
+                <!-- <div class="sub-category-mode"> -->
+                <a class="sub-category-mode" href="#">
                     <i class="fas fa-mug-hot"></i>
                     <p>Coffee</p>
-                </div>
+                </a>
+                <!-- </div> -->
             </div>
-            <div class="col-2 category-mode meetup">
-                <div class="sub-category-mode">
+            <div class="col-2 category-mode d-flex align-items-center meetup">
+                <!-- <div class="sub-category-mode"> -->
+                <a class="sub-category-mode" href="#">
                     <i class="fab fa-meetup"></i>
                     <p>Meetup</p>
-                </div>
-            </div>
-            <div class="col-2 category-mode training-workshop">
-                <div class="sub-category-mode">
-                    <i class="fas fa-chalkboard-teacher"></i>
-                    <p>Training &</br> workshop</p>
-                </div>
+                </a>
+                <!-- </div> -->
             </div>
             <div class="col-2 category-mode d-flex align-items-center training-workshop">
-                <div class="sub-category-mode">
+                <!-- <div class="sub-category-mode"> -->
+                <a class="sub-category-mode" href="#">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <p>Training &</br> workshop</p>
+                </a>
+                <!-- </div> -->
+            </div>
+            <div class="col-2 category-mode d-flex align-items-center training-workshop">
+                <!-- <div class="sub-category-mode"> -->
+                <a class="sub-category-mode" href="#">
                     <i class="fas fa-laptop"></i>
                     <p>Tech summit</p>
-                </div>
+                </a>
+                <!-- </div> -->
             </div>
+
+
+
+<!--            <div class="col-2 category-mode my-event">-->
+<!--                <div class="sub-category-mode">-->
+<!--                    <i class="far fa-calendar-check"></i>-->
+<!--                    <p>My Events</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-2 category-mode coffee">-->
+<!--                <div class="sub-category-mode">-->
+<!--                    <i class="fas fa-mug-hot"></i>-->
+<!--                    <p>Coffee</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-2 category-mode meetup">-->
+<!--                <div class="sub-category-mode">-->
+<!--                    <i class="fab fa-meetup"></i>-->
+<!--                    <p>Meetup</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-2 category-mode training-workshop">-->
+<!--                <div class="sub-category-mode">-->
+<!--                    <i class="fas fa-chalkboard-teacher"></i>-->
+<!--                    <p>Training &</br> workshop</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-2 category-mode d-flex align-items-center training-workshop">-->
+<!--                <div class="sub-category-mode">-->
+<!--                    <i class="fas fa-laptop"></i>-->
+<!--                    <p>Tech summit</p>-->
+<!--                </div>-->
+<!--            </div>-->
         </div>
 
     </div>
@@ -164,51 +209,51 @@
     </div>
 </div>
 
-<div class="map">
-    <div class="mapouter">
-        <div class="gmap_canvas">
-            <iframe width="600" height="500" id="gmap_canvas"
-                    src="https://maps.google.com/maps?q=maner%20street%20wellington&t=&z=17&ie=UTF8&iwloc=&output=embed"
-                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-            <a href="https://www.whatismyip-address.com">whatismyip-address.com</a></div>
-        <style>.mapouter {
-                position: relative;
-                text-align: right;
-                height: 500px;
-                width: 600px;
-            }
+<!--<div class="map">-->
+<!--    <div class="mapouter">-->
+<!--        <div class="gmap_canvas">-->
+<!--            <iframe width="600" height="500" id="gmap_canvas"-->
+<!--                    src="https://maps.google.com/maps?q=maner%20street%20wellington&t=&z=17&ie=UTF8&iwloc=&output=embed"-->
+<!--                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>-->
+<!--            <a href="https://www.whatismyip-address.com">whatismyip-address.com</a></div>-->
+<!--        <style>.mapouter {-->
+<!--                position: relative;-->
+<!--                text-align: right;-->
+<!--                height: 500px;-->
+<!--                width: 600px;-->
+<!--            }-->
+<!---->
+<!--            .gmap_canvas {-->
+<!--                overflow: hidden;-->
+<!--                background: none !important;-->
+<!--                height: 500px;-->
+<!--                width: 600px;-->
+<!--            }</style>-->
+<!--    </div>-->
+<!--</div>-->
 
-            .gmap_canvas {
-                overflow: hidden;
-                background: none !important;
-                height: 500px;
-                width: 600px;
-            }</style>
-    </div>
-</div>
-
-<div class="map2">
-    <div class="mapouter">
-        <div class="gmap_canvas">
-            <iframe width="600" height="500" id="gmap_canvas"
-                    src="https://maps.google.com/maps?q=96%20the%20terrence&t=&z=17&ie=UTF8&iwloc=&output=embed"
-                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-            <a href="https://www.whatismyip-address.com">whatismyip-address.com</a></div>
-        <style>.mapouter {
-                position: relative;
-                text-align: right;
-                height: 500px;
-                width: 600px;
-            }
-
-            .gmap_canvas {
-                overflow: hidden;
-                background: none !important;
-                height: 500px;
-                width: 600px;
-            }</style>
-    </div>
-</div>
+<!--<div class="map2">-->
+<!--    <div class="mapouter">-->
+<!--        <div class="gmap_canvas">-->
+<!--            <iframe width="600" height="500" id="gmap_canvas"-->
+<!--                    src="https://maps.google.com/maps?q=96%20the%20terrence&t=&z=17&ie=UTF8&iwloc=&output=embed"-->
+<!--                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>-->
+<!--            <a href="https://www.whatismyip-address.com">whatismyip-address.com</a></div>-->
+<!--        <style>.mapouter {-->
+<!--                position: relative;-->
+<!--                text-align: right;-->
+<!--                height: 500px;-->
+<!--                width: 600px;-->
+<!--            }-->
+<!---->
+<!--            .gmap_canvas {-->
+<!--                overflow: hidden;-->
+<!--                background: none !important;-->
+<!--                height: 500px;-->
+<!--                width: 600px;-->
+<!--            }</style>-->
+<!--    </div>-->
+<!--</div>-->
 
 <footer class="footer">
     <div class="container footer-wrap">
@@ -383,19 +428,6 @@
     });
 </script>
 <script src="./js/default.js"></script>
-<!-- <script type="text/javascript">
-  function loadJson2(){
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function() {
-      if (this.readyState == 4 && this.status == 200) {
-        var myObj = JSON.parse(this.responseText);
-        document.getElementsByClassName("event-details").innerHTML = myObj.events[1].title+"</br>"+myObj.events[1].start+"</br>"+myObj.events[1].end;
-      }
-    };
-    xmlhttp.open("GET", "DBTesting.php", true);
-    xmlhttp.send();
-  }
-</script> -->
 
 <script src="https://kit.fontawesome.com/bdfac7b89e.js" crossorigin="anonymous"></script>
 <script src=""></script>

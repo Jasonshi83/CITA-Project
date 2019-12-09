@@ -17,7 +17,7 @@ function displayEvents(){
 
     var schedules = JSON.parse(this.responseText);
 
-  for(var i=0; i<4; i++){
+  for(var i=0; i<3; i++){
 
     var node = document.createElement("div");
     node.className = 'card w-100';
@@ -108,7 +108,7 @@ function displayEvents(){
     var locationdetail = schedules[i].address;
     var locatiodetailnnode = document.createTextNode(locationdetail);
 
-    var totalattendees = "20 attendees";
+    var totalattendees = "Attendee Limit: " + schedules[i].AttendeeLimit;
     var totalnode = document.createTextNode(totalattendees);
 
     var detaildesc = schedules[i].detailDesc;
