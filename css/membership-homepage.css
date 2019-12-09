@@ -242,12 +242,20 @@
   background-color: #6cc9e0;
 }
 
+/* .upcoming-category a:focus{
+  background-color: #6cc9e0;
+} */
 
 .upcoming-category a:hover i,
 .upcoming-category a:hover p{
   color: #fff;
   /* background-color: #6cc9e0; */
 }
+
+/* .upcoming-category a:focus i,
+.upcoming-category a:focus p{
+  color: #fff;
+} */
 
 
 /* jquery toogle class */
