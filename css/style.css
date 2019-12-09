@@ -162,6 +162,7 @@ footer .logo-white img{
   font-size: 15px;
   margin-bottom: 14px;
   line-height: 1.5;
+  font-weight: bold;
 }
 .content,
 .content a{
@@ -195,6 +196,7 @@ footer .button p a:hover{
 }
 .site-map .footer-title{
   font-size: 14px;
+  font-weight: bold;
 }
 .site-map  .content{
   font-size: 12px;

@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="./css/membership-homepage.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="navbar">
+    <!-- <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="navbar"> -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
       <div class="container">
         <a class="navbar-brand" href="#"><img
             class="logo"

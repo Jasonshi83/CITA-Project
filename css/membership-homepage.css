@@ -17,17 +17,25 @@
   position: fixed;
   margin-top: -15px;
 }
-.navbar-light .navbar-brand{
+
+.navbar-brand{
   margin-top: 20px;
 }
+
+/* .navbar-light .navbar-brand{
+  margin-top: 20px;
+} */
+
 .logo {
   max-height: 40px;
 }
+
 .nav-item{
   padding-left: 28px;
   padding-right: 28px;
   /* padding-top: 20px; */
 }
+
 .navbar-nav{
   margin-top: 25px;
   float: right;
@@ -449,6 +457,7 @@ footer .logo-white img{
   font-size: 15px;
   margin-bottom: 14px;
   line-height: 1.5;
+  font-weight: bold;
 }
 .content,
 .content a{
@@ -482,6 +491,7 @@ footer .button p a:hover{
 }
 .site-map .footer-title{
   font-size: 14px;
+  font-weight: bold;
 }
 .site-map  .content{
   font-size: 12px;
