@@ -584,6 +584,6 @@
   <script src="https://kit.fontawesome.com/bdfac7b89e.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <!-- <script src="./js/events.js"></script> -->
-  <!-- <script src="./js/categorySelected.js"></script> -->
+  <script src="./js/categorySelected.js"></script>
   <script src="./js/events-test.js"></script>
 </html>
