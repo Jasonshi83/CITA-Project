@@ -141,17 +141,11 @@ function displayEvents(){
 
     node.appendChild(node2);
     document.getElementsByClassName("event-lists")[0].appendChild(node);
-
-
-
-
-
-
   }
   };
+  // if()
   oReq.open("get","UpcomingEvent.php",true);
   oReq.send();
-
 }
 
 function getDataAction(target) {
