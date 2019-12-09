@@ -123,7 +123,7 @@ function myFunction(category) {
     // document.getElementsByClassName("sub-category-mode")[0].style.backgroundColor = "red";
 }
 
-
+// ========================================
 /* jquery toogle class */
 /* make color stay when clicked on element */
 
@@ -135,6 +135,7 @@ function myFunction(category) {
     });
   });
 })(jQuery);
+//====================================================
 
 // var elementIsClicked = false; // declare the variable that tracks the state
 // function clickHandler(){ // declare a function that updates the state
