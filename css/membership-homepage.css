@@ -242,10 +242,6 @@
   background-color: #6cc9e0;
 }
 
-.upcoming-category a:focus{
-  /* color: #fff; */
-  background-color: #6cc9e0;
-}
 
 .upcoming-category a:hover i,
 .upcoming-category a:hover p{
@@ -253,11 +249,22 @@
   /* background-color: #6cc9e0; */
 }
 
-.upcoming-category a:focus i,
-.upcoming-category a:focus p{
-  color: #fff;
-  /* background-color: #6cc9e0; */
+
+/* jquery toogle class */
+/* make color stay when clicked on element */
+.sub-category-mode{
+  background-color: #fff;
+  cursor: pointer;
 }
+.sub-category-mode.active {
+  background-color: #6cc9e0;
+}
+
+.sub-category-mode.active i,
+.sub-category-mode.active p{
+  color: #fff;
+}
+/* ========================== */
 
 .upcoming-block{
   margin-top: 20px;

@@ -124,6 +124,18 @@ function myFunction(category) {
 }
 
 
+/* jquery toogle class */
+/* make color stay when clicked on element */
+
+(function($) {
+	$(document).ready( function() {
+  	$('.sub-category-mode').click( function() {
+    	$('.sub-category-mode').removeClass('active');
+      $(this).addClass('active');
+    });
+  });
+})(jQuery);
+
 // var elementIsClicked = false; // declare the variable that tracks the state
 // function clickHandler(){ // declare a function that updates the state
 //   elementIsClicked = true;
