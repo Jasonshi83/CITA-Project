@@ -5,7 +5,11 @@
     <title></title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="bootstrap-dynamic-tabs.css">
+  <script src="bootstrap-dynamic-tabs.js"></script>
     <link rel="stylesheet" href="./css/eventDetailStyle.css">
   </head>
   <body>
@@ -59,18 +63,139 @@
                     <p class="card-text">14:00 - 18:00</small></p>
                 </div>
             </div>
-        </div>
-    </div>
+            </div>
+         </div>
 
-        </div>
+    </div>
 
     <div class="row" id="bodyrow">
-        <div class="col-lg-8" id="descriptiondiv">
-        
+        <div class="container col-lg-7" id="descriptiondiv">
+            <h2>Details</h2>
+
+            <div class="row">
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac consectetur purus. Maecenas pellentesque nisi libero, facilisis feugiat dolor semper vitae. Sed dignissim, lorem vel dictum hendrerit, metus risus commodo ligula, ut posuere elit diam eu lorem. Nulla vel diam et ex porta dapibus tempus eu lacus. Integer facilisis purus sed massa scelerisque varius. Cras at orci dapibus, mollis magna at, aliquam nisi. Curabitur at nibh a ex gravida fringilla in sed erat. Phasellus congue fringilla elit, id sagittis ipsum volutpat pretium. Fusce convallis dapibus justo, vitae iaculis neque varius vel.
+                Phasellus rutrum nulla enim, ut rhoncus enim pellentesque
+                <br>
+                <br>
+                sit amet. Suspendisse a augue eu erat fermentum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam sed facilisis ante. Nulla id leo odio. Quisque vehicula quis tellus eu mattis. Etiam risus ante, molestie sit amet efficitur et, tristique nec lectus. Donec id suscipit metus. 
+                Orci varius natoque penatibus e
+                <br>
+                <br>
+                t magnis dis parturient montes, nascetur ridiculus mus. Suspendisse ultricies iaculis nunc, quis tempor ligula. Fusce aliquet mattis ligula tempus imperdiet. Nulla et nulla tempus, semper leo eu, suscipit purus. Etiam facilisis eros est, vel ultricies mi porta eu. Praesent interdum feugiat mollis. Praesent dapibus malesuada ex, id aliquet tellus commodo nec. Sed vitae convallis velit, sed dictum metus. Donec venenatis purus eget mauris tempus, eget porta neque ultricies. Vivamus nunc nisl, imperdiet at felis eu, efficitur fermentum felis. In hac habitasse platea dictumst. Vestibulum vitae lectus eget ante lacinia tempor suscipit in justo. Sed pharetra odio quis nunc volutpat, vel tincidunt ante dignissim. Aliquam laoreet leo eu felis tristique sodales.
+                Nam dignissim velit metus, quis tincidunt dui suscipit sit amet. 
+                <br>
+                <br>
+                Suspendisse dignissim turpis nibh, quis sodales leo efficitur non. Cras ipsum metus, pulvinar et lacus sed, semper scelerisque sapien. Aliquam urna mi, elementum vel scelerisque at, efficitur non enim. Morbi iaculis rutrum ante et venenatis. In ac euismod tellus. Etiam et quam lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc in ante arcu. Praesent quis dictum dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
+                </p>
+            </div>
+            
+            
+            <nav class="nav nav-pills flex-column flex-sm-row">
+                
+                <a class="flex-sm-fill text-sm-center nav-link active" href="">Attendees</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="">Agenda</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="">Speaker</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="">Sponsor</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="">Additional Information</a>
+            </nav>
+            <hr>
+            
+
+            
         </div>
-        <div class="col-lg-4" id="details">
+
+        <div class="container col-lg-5" id="details">
+        <div class="row">
+            <h5>Hosted By</h5>
+        </div>    
+        <div class="row">
+            <img src="./images/avatar-small2.png">
+            <p>Sally McGuire</p>
+        </div>
+
+        <div class="row">
+        <svg class="Rectangle_604">
+		<rect fill="rgba(139,212,230,1)" id="Rectangle_604" rx="25" ry="25" x="0" y="0" width="150" height="50">
+           
+		</rect>
+        </svg>
+        
+        <svg class="Rectangle_606">
+		<rect fill="rgba(255,255,255,1)" stroke="rgba(139,212,230,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_606" rx="25" ry="25" x="0" y="0" width="150" height="50">
+		</rect>
+	    </svg>
+
+	
+        </div>
+
+        <div class="row" >
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11990.863553199022!2d174.78377079999999!3d-41.29328745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snz!4v1575865867921!5m2!1sen!2snz" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+
+        <div class="row">
+            <p>Replace with Address Here</p>
+        </div>
+
+        
+        <div class="row">
+
+        <h5>Related Events</h5>
+
+            <div class="card mb-3 col-lg-12">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="..." class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            
+
+            <div class="card mb-3 col-lg-12">
+                <div class="row no-gutters">
+                    <div class="col-md-6>
+                        <img src="..." class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            
+
+            <div class="card mb-3 col-lg-12 ">
+                <div class="row no-gutters">
+                    <div class="col-md-6">
+                        <img src="..." class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        
+
+        </div>
     </div>
-    </div>
+
+
   
 
 </div> <!--UNSURE WhAT THIS LINKS TO -->
@@ -155,4 +280,7 @@
   </script>
   <script src="https://kit.fontawesome.com/bdfac7b89e.js" crossorigin="anonymous"></script>
   <script src="./js/events.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="bootstrap-dynamic-tabs.js"></script>
 </html>
