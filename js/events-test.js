@@ -304,3 +304,17 @@ function showEvents(selectedCategory){
   // oReq.open("get","UpcomingEvent.php",true);
   // oReq.send();
 }
+
+
+/* jquery toogle class */
+/* make color stay when clicked on element */
+
+(function($) {
+	$(document).ready( function() {
+  	$('.sub-category-mode').click( function() {
+    	$('.sub-category-mode').removeClass('active');
+      $(this).addClass('active');
+    });
+  });
+})(jQuery);
+//====================================================
