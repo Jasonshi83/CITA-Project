@@ -46,7 +46,7 @@ function showEvents(){
 
     var imgevents = document.createElement("img");
     imgevents.className = 'img-events';
-    imgevents.src = "images/interest-groups1.png";
+    imgevents.src = "/Users/shizong/Code/Github/CITA/images/interest-groups1.png";
     imgevents.alt = "image-events";
     var title = document.createElement("h5");
     title.className = 'card-title';
