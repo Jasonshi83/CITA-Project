@@ -114,27 +114,6 @@
                 <div class="event-lists">
                     <!-- <p class="event-details">good</p> -->
                 </div>
-                <!-- <div class="card w-100">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Button</a>
-                  </div>
-                </div>
-                <div class="card w-100">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Button</a>
-                  </div>
-                </div>
-                <div class="card w-100">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Button</a>
-                  </div>
-                </div> -->
             </div>
         </div>
 
@@ -158,52 +137,6 @@
         </div>
     </div>
 </div>
-
-<!--<div class="map">-->
-<!--    <div class="mapouter">-->
-<!--        <div class="gmap_canvas">-->
-<!--            <iframe width="600" height="500" id="gmap_canvas"-->
-<!--                    src="https://maps.google.com/maps?q=maner%20street%20wellington&t=&z=17&ie=UTF8&iwloc=&output=embed"-->
-<!--                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>-->
-<!--            <a href="https://www.whatismyip-address.com">whatismyip-address.com</a></div>-->
-<!--        <style>.mapouter {-->
-<!--                position: relative;-->
-<!--                text-align: right;-->
-<!--                height: 500px;-->
-<!--                width: 600px;-->
-<!--            }-->
-<!---->
-<!--            .gmap_canvas {-->
-<!--                overflow: hidden;-->
-<!--                background: none !important;-->
-<!--                height: 500px;-->
-<!--                width: 600px;-->
-<!--            }</style>-->
-<!--    </div>-->
-<!--</div>-->
-
-<!--<div class="map2">-->
-<!--    <div class="mapouter">-->
-<!--        <div class="gmap_canvas">-->
-<!--            <iframe width="600" height="500" id="gmap_canvas"-->
-<!--                    src="https://maps.google.com/maps?q=96%20the%20terrence&t=&z=17&ie=UTF8&iwloc=&output=embed"-->
-<!--                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>-->
-<!--            <a href="https://www.whatismyip-address.com">whatismyip-address.com</a></div>-->
-<!--        <style>.mapouter {-->
-<!--                position: relative;-->
-<!--                text-align: right;-->
-<!--                height: 500px;-->
-<!--                width: 600px;-->
-<!--            }-->
-<!---->
-<!--            .gmap_canvas {-->
-<!--                overflow: hidden;-->
-<!--                background: none !important;-->
-<!--                height: 500px;-->
-<!--                width: 600px;-->
-<!--            }</style>-->
-<!--    </div>-->
-<!--</div>-->
 
 <footer class="footer">
     <div class="container footer-wrap">
@@ -379,8 +312,6 @@
 </script>
 <script src="js/calendar.js"></script>
 <script src="js/UpcomingEvent.js"></script>
-<!--<script src="js/categorySelected.js"></script>-->
 
 <script src="https://kit.fontawesome.com/bdfac7b89e.js" crossorigin="anonymous"></script>
-<!--<script src=""></script>-->
 </html>
