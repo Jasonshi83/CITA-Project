@@ -426,6 +426,11 @@
   border: 1px solid  #8bd4e6;
   text-align: center;
 }
+
+.interest-groups .card-deck .card:hover{
+  opacity: 0.8;
+}
+
 .interest-groups .card-img-top{
   height: 200px;
 }
