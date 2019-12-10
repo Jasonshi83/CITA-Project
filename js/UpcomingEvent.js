@@ -1,10 +1,12 @@
 var selectedCategory;
 
+
+
 displayEvents("myevents");
 
 function myFunction(category) {
-
-    location.reload();
+    var list = document.getElementsByClassName("card w-100");
+    list.removeChild(list.childNodes[0]);
 
     // document.getElementsByClassName("user-name")[0].textContent = category;
     selectedCategory = category;
