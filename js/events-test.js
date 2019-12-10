@@ -1,11 +1,14 @@
 document.getElementsByClassName("fa-meetup")[0].attributes[1].value = "false";
 
 // showEvents();
+showEvents("myevents");
+
+// document.getElementsByClassName("user-name")[0].textContent = document.getElementsByClassName("upcoming-events")[0].childNodes.length;
 
 var selectedCategory;
 
 function myFunction(category) {
-
+  refeshNewCategory();
   // document.getElementsByClassName("user-name")[0].textContent = category;
   selectedCategory = category;
   showEvents(selectedCategory);
@@ -303,6 +306,20 @@ function showEvents(selectedCategory){
 
   // oReq.open("get","UpcomingEvent.php",true);
   // oReq.send();
+}
+
+// function removeDummy() {
+//  var elem = document.getElementById('dummy');
+//  elem.parentNode.removeChild(elem);
+// }
+
+function refeshNewCategory(){
+  for(var i=document.getElementsByClassName("upcoming-events")[0].childNodes.length-1; i>10; i--){
+    var parent = document.getElementsByClassName("upcoming-events")[0];
+    parent.removeChild(parent.childNodes[i]);
+  }
+    document.getElementsByClassName("user-name")[0].textContent = document.getElementsByClassName("upcoming-events")[0].childNodes.length;
+  // document.getElementsByClassName("upcoming-events")[0].removeChild(document.getElementsByClassName("upcoming-events")[0].childNodes[11]);
 }
 
 
