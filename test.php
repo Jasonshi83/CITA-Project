@@ -27,7 +27,7 @@
     </div>
 
   </body>
-  <script src="./js/default.js"></script>
+  <script src="js/calendar.js"></script>
 
   <!-- ==================================================================== -->
 
