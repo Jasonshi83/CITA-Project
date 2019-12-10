@@ -15,8 +15,8 @@
         public $detailDesc;
         public $AttendeeLimit;
     }
-//    $conn = mysqli_connect("10.140.61.247:3306", "citauser", "citauser", "cita_events") or die("could not connect to DB");
-$conn = mysqli_connect("192.168.1.64:3306", "citauser", "citauser", "cita_events") or die("could not connect to DB");
+    $conn = mysqli_connect("10.140.61.247:3306", "citauser", "citauser", "cita_events") or die("could not connect to DB");
+//$conn = mysqli_connect("192.168.1.64:3306", "citauser", "citauser", "cita_events") or die("could not connect to DB");
     //Test
 //    $result = $conn->query("select * from events where EventStart >= CURRENT_TIMESTAMP order by eventStart;");
     $result = $conn->query("select Events.id, Events.ShortDesc, Events.QRToken, Events.EventVideo, Events.EventStart, Events.EventEnd, Events.city, Events.address, Events.DetailDesc, Events.AttendeeLimit, Events.AllowGuests, Events.Category, EventsCategory.category as type FROM Events JOIN EventsCategory ON Events.Category = Eventscategory.id where Events.EventStart >= CURRENT_TIMESTAMP order by Events.EventStart;");
