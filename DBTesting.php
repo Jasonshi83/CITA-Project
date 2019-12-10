@@ -14,8 +14,8 @@
         public $address;
         public $detailDesc;
     }
-//    $conn = mysqli_connect("10.140.61.247:3306", "citauser", "citauser", "cita_events") or die("could not connect to DB");
-    $conn = mysqli_connect("192.168.1.64:3306", "citauser", "citauser", "cita_events") or die("could not connect to DB");
+    $conn = mysqli_connect("10.140.61.247:3306", "citauser", "citauser", "cita_events") or die("could not connect to DB");
+//    $conn = mysqli_connect("192.168.1.64:3306", "citauser", "citauser", "cita_events") or die("could not connect to DB");
     //Test
     $result = $conn->query("SELECT * from EVENTS");
 //    $r = mysqli_fetch_assoc($sth)
