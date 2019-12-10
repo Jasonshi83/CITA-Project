@@ -58,13 +58,13 @@
 
         <div class="row" id="bannerrow">
 
-            <div class="card mb-5" >
+            <div class="card mb-5 mt-5 pt-4" >
                
             <div class="row no-gutters">
                     <div class="col-lg-8">
                         <img src="https://www.gelsi.com/foto/catering/slide2.jpg" class="card-img" alt="...">
                     </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4" id="importantMainBanner">
                 <div class="card-body mt-4">
                     <h1 class="card-title pt-5" id="maintitle"></h1>
                     <p class="card-text" id="starttime"></p>
@@ -141,23 +141,15 @@
         </div>    
         <div class="row">
             <img src="./images/avatar-small2.png">
-            <p>Sally McGuire</p>
+            <p class="mt-4 mx-3">Sally McGuire</p>
         </div>
 
-        <div class="row">
-        <svg class="Rectangle_604">
-		<rect fill="rgba(139,212,230,1)" id="Rectangle_604" rx="25" ry="25" x="0" y="0" width="150" height="50">
-           
-		</rect>
-        </svg>
-        
-        <svg class="Rectangle_606">
-		<rect fill="rgba(255,255,255,1)" stroke="rgba(139,212,230,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_606" rx="25" ry="25" x="0" y="0" width="150" height="50">
-		</rect>
-	    </svg>
+        <div class="d-flex justify-content-center mt-5 mb-5 center">
 
-	
+          <button type="button" class="btn btn-primary btn-md px-4 mx-3" id="attendButton">Attend</button>
+          <button type="button" class="btn btn-secondary btn-md px-4 mx-3" id="attendShare">Share</button>
         </div>
+
 
         <div class="row" >
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11990.863553199022!2d174.78377079999999!3d-41.29328745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snz!4v1575865867921!5m2!1sen!2snz" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
