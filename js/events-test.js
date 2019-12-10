@@ -302,7 +302,7 @@ function showEvents(selectedCategory){
     oReq.send();
     // document.getElementsByClassName("user-name")[0].textContent = selectedCategory;
   }
-  
+
   else if(selectedCategory=="techsummit"){
     oReq.open("get","UpcomingEvent_TechSummit.php",true);
     oReq.send();
@@ -323,7 +323,7 @@ function refeshNewCategory(){
     var parent = document.getElementsByClassName("upcoming-events")[0];
     parent.removeChild(parent.childNodes[i]);
   }
-    document.getElementsByClassName("user-name")[0].textContent = document.getElementsByClassName("upcoming-events")[0].childNodes.length;
+    // document.getElementsByClassName("user-name")[0].textContent = document.getElementsByClassName("upcoming-events")[0].childNodes.length;
   // document.getElementsByClassName("upcoming-events")[0].removeChild(document.getElementsByClassName("upcoming-events")[0].childNodes[11]);
 }
 
