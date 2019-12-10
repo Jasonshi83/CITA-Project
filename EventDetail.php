@@ -23,11 +23,11 @@
                
             <div class="row no-gutters">
                     <div class="col-lg-8">
-                        <img src="https://icatcare.org/app/uploads/2018/09/Scottish-fold.png" class="card-img" alt="...">
+                        <img src="https://www.gelsi.com/foto/catering/slide2.jpg" class="card-img" alt="...">
                     </div>
             <div class="col-lg-4">
-                <div class="card-body">
-                    <h1 class="card-title" id="maintitle"></h1>
+                <div class="card-body mt-4">
+                    <h1 class="card-title pt-5" id="maintitle"></h1>
                     <p class="card-text" id="starttime"></p>
                     
                 </div>
