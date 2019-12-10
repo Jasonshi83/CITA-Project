@@ -133,6 +133,22 @@
   border-radius: 50%;
 }
 
+.event-lists .fa-meetup::before{
+  font-size: 25px;
+  margin-bottom: 10px;
+  background-color: #8bd4e6;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: -15px;
+}
+
+.event-lists .fa-meetup{
+  pointer-events: none;
+  /* background-color: none; */
+  margin-bottom: 30px;
+}
+
 .date-location{
   margin: 10px 0px;
 }
