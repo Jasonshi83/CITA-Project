@@ -1,8 +1,5 @@
 var selectedCategory;
 
-var numElement;
-
-
 
 displayEvents("myevents");
 
@@ -12,10 +9,6 @@ function myFunction(category) {
         document.getElementsByClassName("event-content")[0].childNodes[3].removeChild(document.getElementsByClassName("event-content")[0].childNodes[3].childNodes[i]);
     }
     console.log("hell worldddd---------");
-
-
-
-
 
     // document.getElementsByClassName("user-name")[0].textContent = category;
     selectedCategory = category;
@@ -332,3 +325,12 @@ function displayEvents(selectedCategory) {
     // oReq.send();
 
 }
+
+(function($) {
+    $(document).ready( function() {
+        $('.sub-category-mode').click( function() {
+            $('.sub-category-mode').removeClass('active');
+            $(this).addClass('active');
+        });
+    });
+})(jQuery);

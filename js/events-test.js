@@ -135,7 +135,7 @@ function showEvents(selectedCategory){
 
     node4.appendChild(node5);
     // node3.appendChild(imgevents);
-    node3.style.backgroundImage = "url('http://localhost/cita-new/css/assets/interest-groups1.png')";
+    node3.style.backgroundImage = "url('images/interest-groups1.png')";
     node3.style.backgroundRepeat = "no-repeat";
     node3.style.backgroundSize = "cover";
 
@@ -262,7 +262,7 @@ function showEvents(selectedCategory){
 
     node4.appendChild(node5);
     // node3.appendChild(imgevents);
-    node3.style.backgroundImage = "url('http://localhost/cita-new/css/assets/interest-groups1.png')";
+    node3.style.backgroundImage = "url('images/interest-groups1.png')";
     node3.style.backgroundRepeat = "no-repeat";
     node3.style.backgroundSize = "cover";
 

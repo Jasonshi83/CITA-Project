@@ -156,3 +156,15 @@
   margin-right: 3px;
 }
 /* --------- Even Calendar card over -------------*/
+.sub-category-mode{
+    background-color: #fff;
+    cursor: pointer;
+}
+.sub-category-mode.active {
+    background-color: #6CC9E0;
+}
+.sub-category-mode.active i,
+.sub-category-mode.active p{
+    color: #fff;
+}
+

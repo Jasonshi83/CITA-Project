@@ -30,13 +30,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto align-middle">
             <li class="nav-item">
-              <a class="nav-link links current" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link links current" href="membership-home.php">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link links" href="#">Our Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link links" href="#">Events</a>
+              <a class="nav-link links" href="EventCalendar.php">Events</a>
             </li>
             <li class="nav-item">
               <a class="nav-link links" href="#">Jobs</a>

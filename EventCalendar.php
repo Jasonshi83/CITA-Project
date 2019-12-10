@@ -33,14 +33,18 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto align-middle">
                 <li class="nav-item">
-                    <a class="nav-link links" href="#">Home</span></a>
+                    <a class="nav-link links" href="membership-home.php">Home</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link links" href="#">Our Team</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link links current" href="#">Events <span class="sr-only">(current)</a>
+                    <a class="nav-link links current" href="EventCalendar.php">Events <span class="sr-only">(current)</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link links" href="#">Jobs</a>
+                </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="/">
                         <img src="https://www.gravatar.com/avatar/5c25e0e0063bc9535b723c133e39a11d?s=64&d=mm&r=g"
@@ -375,6 +379,7 @@
 </script>
 <script src="js/calendar.js"></script>
 <script src="js/UpcomingEvent.js"></script>
+<!--<script src="js/categorySelected.js"></script>-->
 
 <script src="https://kit.fontawesome.com/bdfac7b89e.js" crossorigin="anonymous"></script>
 <!--<script src=""></script>-->
