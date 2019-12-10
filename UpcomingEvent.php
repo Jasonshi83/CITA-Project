@@ -14,12 +14,14 @@
         public $address;
         public $detailDesc;
         public $AttendeeLimit;
+        public $DetailedEventDesc;
     }
+//    $conn = mysqli_connect("10.140.220.109:3306", "Jarrod", "mypass", "mydb") or die("could not connect to DB");
     $conn = mysqli_connect("10.140.61.247:3306", "citauser", "citauser", "cita_events") or die("could not connect to DB");
 //$conn = mysqli_connect("192.168.1.64:3306", "citauser", "citauser", "cita_events") or die("could not connect to DB");
     //Test
 //    $result = $conn->query("select * from events where EventStart >= CURRENT_TIMESTAMP order by eventStart;");
-    $result = $conn->query("select Events.id, Events.ShortDesc, Events.QRToken, Events.EventVideo, Events.EventStart, Events.EventEnd, Events.city, Events.address, Events.DetailDesc, Events.AttendeeLimit, Events.AllowGuests, Events.Category, EventsCategory.category as type FROM Events JOIN EventsCategory ON Events.Category = Eventscategory.id where Events.EventStart >= CURRENT_TIMESTAMP order by Events.EventStart;");
+    $result = $conn->query("select Events.id, Events.ShortDesc, Events.QRToken, Events.EventVideo, Events.EventStart, Events.EventEnd, Events.city, Events.address, Events.DetailDesc, Events.AttendeeLimit, Events.AllowGuests, Events.Category, Events.DetailedEventDesc, EventsCategory.category as type FROM Events JOIN EventsCategory ON Events.Category = Eventscategory.id where Events.EventStart >= CURRENT_TIMESTAMP order by Events.EventStart;");
 //    $r = mysqli_fetch_assoc($sth)
 //    $rows = array();
     if($result){
@@ -47,6 +49,8 @@
         $user->city = $row["city"];
         $user->detailDesc = $row["DetailDesc"];
         $user->AttendeeLimit = $row["AttendeeLimit"];
+        $user->DetailedEventDesc = $row["DetailedEventDesc"];
+
 
         $data[] = $user;
         }
