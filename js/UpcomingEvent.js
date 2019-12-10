@@ -1,12 +1,21 @@
 var selectedCategory;
 
+var numElement;
+
 
 
 displayEvents("myevents");
 
 function myFunction(category) {
-    var list = document.getElementsByClassName("card w-100");
-    list.removeChild(list.childNodes[0]);
+    for(var i = document.getElementsByClassName("event-content")[0].childNodes[3].childNodes.length-1; i >= 0; i--)
+    {
+        document.getElementsByClassName("event-content")[0].childNodes[3].removeChild(document.getElementsByClassName("event-content")[0].childNodes[3].childNodes[i]);
+    }
+    console.log("hell worldddd---------");
+
+
+
+
 
     // document.getElementsByClassName("user-name")[0].textContent = category;
     selectedCategory = category;
