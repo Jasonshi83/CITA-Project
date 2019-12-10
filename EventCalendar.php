@@ -46,8 +46,8 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="/">
-                        <img src="https://www.gravatar.com/avatar/5c25e0e0063bc9535b723c133e39a11d?s=64&d=mm&r=g"
+                    <a class="nav-link" href="membership-home.php">
+                        <img src="images\login-avatar-small.png"
                              alt="login-avatar">
                     </a>
                 </li>
