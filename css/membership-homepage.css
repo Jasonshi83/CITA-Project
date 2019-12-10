@@ -241,6 +241,10 @@
   color:  #8bd4e6;
 }
 
+.upcoming-category{
+  margin-top: 25px;
+}
+
 .upcoming-category a{
   text-decoration: none;
 }
