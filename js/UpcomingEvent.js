@@ -190,8 +190,29 @@ function displayEvents(selectedCategory) {
                 node4Sub2.className = 'col-lg-5';
 
 
-                var iconcategory = document.createElement("i");
-                iconcategory.className = 'fas fa-mug-hot icon-category';
+                if(selectedCategory=="myevents"){
+                  var iconcategory = document.createElement("i");
+                  iconcategory.className = 'far fa-calendar-check icon-category';
+                }
+                else if(selectedCategory=="coffee"){
+                  var iconcategory = document.createElement("i");
+                  iconcategory.className = 'fas fa-mug-hot icon-category';
+                }
+                else if(selectedCategory=="meetup"){
+                  var iconcategory = document.createElement("i");
+                  iconcategory.className = 'fab fa-meetup icon-category';
+                }
+                else if(selectedCategory=="training"){
+                  var iconcategory = document.createElement("i");
+                  iconcategory.className = 'fas fa-chalkboard-teacher icon-category';
+                }
+                else if(selectedCategory=="techsummit"){
+                  var iconcategory = document.createElement("i");
+                  iconcategory.className = 'fas fa-laptop icon-category';
+                }
+
+                // var iconcategory = document.createElement("i");
+                // iconcategory.className = 'fas fa-mug-hot icon-category';
                 var locationicon = document.createElement("i");
                 locationicon.className = 'fas fa-map-marker-alt';
                 var locationdesc = document.createElement("span");
