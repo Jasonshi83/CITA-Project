@@ -262,6 +262,34 @@ footer .copyright{
 }
 
 
+#attendShare {
+  background-color: white;
+  color: rgba(139,212,230);
+  border-radius: 40px;
+  border-color:rgba(139,212,230);
+}
+
+#attendButton {
+  background-color: rgba(139,212,230);
+  color: white;
+  border-radius: 40px;
+  border: none;
+}
+
+#importantMainBanner {
+  background-color: #001d4b;
+}
+
+#maintitle {
+  color: #e6e6e6;
+
+}
+
+#starttime {
+  color: #ee6445;
+}
+
+
 /* responsive */
 @media only screen and (max-width: 992px) {
   footer .row .row-side {
@@ -310,6 +338,8 @@ footer .copyright{
   }
 
 }
+
+
 
 @media only screen and (max-width: 833px) {
   .row-body{
