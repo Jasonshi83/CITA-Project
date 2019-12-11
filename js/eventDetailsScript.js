@@ -115,9 +115,7 @@ function displayEvents(selectedCategory) {
             }
         } 
         console.log("display events finished")
-
     oReq.open("get", "UpcomingEvent.php", true);
     oReq.send();
-
     }
 

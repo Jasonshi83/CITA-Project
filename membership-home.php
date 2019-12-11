@@ -125,7 +125,7 @@
                   <!-- <div class="sub-category-mode"> -->
                     <a class="sub-category-mode" href="#">
                     <i class="far fa-calendar-check"></i>
-                    <p class="category-desc">My Events</p>
+                    <p class="category-desc">All Events</p>
                     </a>
                   <!-- </div> -->
                 </div>
@@ -241,8 +241,14 @@
                 </div>
               </div> -->
 
+
             </div>
 
+              <div class="read-more">
+                  <a href="EventCalendar.php">
+                      See More <i class="fas fa-arrow-right"></i>
+                  </a>
+              </div>
 
             <div class="jobs">
               <h3 class="content-title">Jobs</h3>

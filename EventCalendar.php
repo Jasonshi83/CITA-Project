@@ -63,7 +63,7 @@
                 <!-- <div class="sub-category-mode"> -->
                 <a class="sub-category-mode" href="#">
                     <i class="far fa-calendar-check"></i>
-                    <p class="category-desc">My Events</p>
+                    <p class="category-desc">All Events</p>
                 </a>
                 <!-- </div> -->
             </div>

@@ -8,9 +8,7 @@ function myFunction(category) {
     {
         document.getElementsByClassName("event-content")[0].childNodes[3].removeChild(document.getElementsByClassName("event-content")[0].childNodes[3].childNodes[i]);
     }
-    console.log("hell worldddd---------");
 
-    // document.getElementsByClassName("user-name")[0].textContent = category;
     selectedCategory = category;
     displayEvents(selectedCategory);
 }

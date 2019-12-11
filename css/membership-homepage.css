@@ -95,6 +95,10 @@
   max-width: 1180px;
   margin-bottom: 50px;
 }
+
+.content-title{
+  color: rgba(0,72,134,1);
+ }
 /* left sidebar */
 .login-profile{
   text-align: center;
@@ -183,6 +187,15 @@
 
 .card-img-top{
   border-radius: 0;
+}
+
+.read-more{
+  text-align: right;
+  color: #8bd4e6;
+}
+
+.read-more a{
+  color: #8bd4e6;
 }
 
 /* upcoming event */
@@ -702,3 +715,4 @@ footer .copyright{
     height: 2500px;
   }
 }
+

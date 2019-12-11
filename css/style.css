@@ -6,7 +6,6 @@
 .container{
   font-family: Montserrat,sans-serif;
   max-width: 1200px;
-
 }
 
 /* navbar */
@@ -397,5 +396,4 @@ footer .copyright{
   .row-body{
     height: 2500px;
   }
-
 }
