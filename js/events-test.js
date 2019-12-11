@@ -224,15 +224,6 @@ function showEvents(selectedCategory){
     var location = schedules[i].address;
     var locationnode = document.createTextNode(location);
 
-    // var locationdetail = schedules[i].address;
-    // var locatiodetailnnode = document.createTextNode(locationdetail);
-    //
-    // var totalattendees = "Attendee Limit: " + schedules[i].AttendeeLimit;
-    // var totalnode = document.createTextNode(totalattendees);
-    //
-    // var detaildesc = schedules[i].detailDesc;
-    // var detaildescnode = document.createTextNode(detaildesc);
-
     detail1.appendChild(startnode);
     nodedetail1.appendChild(icon1);
     nodedetail1.appendChild(detail1);
@@ -266,12 +257,10 @@ function showEvents(selectedCategory){
     node3.style.backgroundRepeat = "no-repeat";
     node3.style.backgroundSize = "cover";
 
-
     node2.appendChild(node3);
     node2.appendChild(node4);
     node.appendChild(node2);
     document.getElementsByClassName("upcoming-events")[0].appendChild(node);
-    // document.getElementsByClassName("event-lists")[0].appendChild(node);
 
     }
   }
