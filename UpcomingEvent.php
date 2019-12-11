@@ -51,7 +51,6 @@
         $user->AttendeeLimit = $row["AttendeeLimit"];
         $user->DetailedEventDesc = $row["DetailedEventDesc"];
 
-
         $data[] = $user;
         }
         $json = json_encode($data);
