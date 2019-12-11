@@ -36,6 +36,9 @@ function showEvents(selectedCategory){
     node5.className = 'card-body';
     var node6 = document.createElement("div");
     node6.className = 'row';
+    var node7 = document.createElement("a");
+    node7.className = 'stretched-link';
+    node7.href = '#';
 
     var nodedetail1 = document.createElement("div");
     nodedetail1.className = 'col-4';
@@ -62,8 +65,11 @@ function showEvents(selectedCategory){
     imgevents.className = 'img-events';
     imgevents.src = "images/interest-groups1.png";
     imgevents.alt = "image-events";
-    var title = document.createElement("h5");
+    // var title = document.createElement("h5");
+    // title.className = 'card-title';
+    var title = document.createElement("a");
     title.className = 'card-title';
+    title.href ="#";
     var content = document.createElement("p");
     content.className = 'card-text';
     var btn = document.createElement("a");
@@ -163,10 +169,10 @@ function showEvents(selectedCategory){
     node2.appendChild(node3);
     node2.appendChild(node4);
     node.appendChild(node2);
+    // node.appendChild(node7);
     document.getElementsByClassName("upcoming-events")[0].appendChild(node);
     // document.getElementsByClassName("event-lists")[0].appendChild(node);
-    
-  }
+    }
   }
   else{
     for(var i=0; i<schedules.length; i++){
@@ -183,6 +189,9 @@ function showEvents(selectedCategory){
     node5.className = 'card-body';
     var node6 = document.createElement("div");
     node6.className = 'row';
+    var node7 = document.createElement("a");
+    node7.className = 'stretched-link';
+    node7.href = '#';
 
     var nodedetail1 = document.createElement("div");
     nodedetail1.className = 'col-4';
@@ -290,6 +299,7 @@ function showEvents(selectedCategory){
     node2.appendChild(node3);
     node2.appendChild(node4);
     node.appendChild(node2);
+    // node.appendChild(node7);
     document.getElementsByClassName("upcoming-events")[0].appendChild(node);
     // document.getElementsByClassName("event-lists")[0].appendChild(node);
 
