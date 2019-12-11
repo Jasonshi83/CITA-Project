@@ -189,6 +189,15 @@
   border-radius: 0;
 }
 
+.read-more{
+  text-align: right;
+  color: #8bd4e6;
+}
+
+.read-more a{
+  color: #8bd4e6;
+}
+
 /* upcoming event */
 .category-mode{
   text-align: center;
@@ -706,3 +715,4 @@ footer .copyright{
     height: 2500px;
   }
 }
+
