@@ -57,7 +57,10 @@ function displayMainEvent(EventID) {
                 var startTimeDiv = document.getElementById("starttime").innerHTML = start
 
                 var desc = mainEvent.DetailedEventDesc;
-                var descDiv = document.getElementById("detailsdesc")
+
+                console.log(desc)
+
+                var descDiv = document.getElementById("detailsdesc").innerHTML = desc;
                 
                 var locationdetail = mainEvent.address;
                 var locationdesc = document.getElementById("mainaddress").innerHTML = locationdetail
