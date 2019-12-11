@@ -246,43 +246,47 @@
 
             <div class="jobs">
               <h3 class="content-title">Jobs</h3>
-              <div class="row job-block">
-                <!-- <div class="col-lg-1">
-                    <img  src=".\css\assets\job1.png" alt="xero logo">
-                </div> -->
-                <img  src="images\job1.png" alt="xero logo">
-                <div class="col-lg-12 col-sm-4">
-                  <div class="row">
-                    <div class="col-lg-9">
-                      <h5>Senior Front-end Developer</h5>
-                    </div>
-                    <div class="col-lg-3">
-                      <i class="fas fa-map-marker-alt"></i>
-                      <span>Wellington, NZ</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-12 col-sm-4">
-                  <p>Join us to build the future of payments in Rust! TenX is building a payment platform in the cloud to allow our customers to spend blockchain assets at any merchant that accepts payment cards.</p>
-                </div>
-                <div class="col-lg-12 col-sm-4">
-                  <div class="row tag-category">
-                    <div class="col-lg-9">
-                      <a href="#">AWS</a>
-                      <a href="#">Python</a>
-                      <a href="#">Java</a>
-                    </div>
-                    <div class="col-lg-3">
-                      <p>Rui Feng</br>+64 20 871 4576</p>
+              <div class="card">
+                <div class="row job-block">
+                  <!-- <div class="col-lg-1">
+                      <img  src=".\css\assets\job1.png" alt="xero logo">
+                  </div> -->
+                  <img  src="images\job1.png" alt="xero logo">
+                  <div class="col-lg-12 col-sm-4">
+                    <div class="row">
+                      <div class="col-lg-9">
+                        <h5>Senior Front-end Developer</h5>
+                      </div>
+                      <div class="col-lg-3">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Wellington, NZ</span>
+                      </div>
                     </div>
                   </div>
+                  <div class="col-lg-12 col-sm-4">
+                    <p>Join us to build the future of payments in Rust! TenX is building a payment platform in the cloud to allow our customers to spend blockchain assets at any merchant that accepts payment cards.</p>
+                  </div>
+                  <div class="col-lg-12 col-sm-4">
+                    <div class="row tag-category">
+                      <div class="col-lg-9">
+                        <a href="#">AWS</a>
+                        <a href="#">Python</a>
+                        <a href="#">Java</a>
+                      </div>
+                      <div class="col-lg-3">
+                        <p>Rui Feng</br>+64 20 871 4576</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-sm-4">
+                    <p class="post-date">Posted 1 week ago</p>
+                  </div>
+                  <!-- <div class="col-6 col-sm-4">.col-6 .col-sm-4</div> -->
                 </div>
-                <div class="col-lg-12 col-sm-4">
-                  <p class="post-date">Posted 1 week ago</p>
-                </div>
-                <!-- <div class="col-6 col-sm-4">.col-6 .col-sm-4</div> -->
-              </div>
+              <a href="#" class="stretched-link"></a>
+            </div>
 
+            <div class="card">
               <div class="row job-block">
                 <img  src="images\job2.png" alt="weta digital logo">
                 <div class="col-lg-12 col-sm-4">
@@ -319,8 +323,9 @@
                 </div>
                 <!-- <div class="col-6 col-sm-4">.col-6 .col-sm-4</div> -->
               </div>
-
+              <a href="#" class="stretched-link"></a>
             </div>
+          </div>
             <!-- end jobs -->
 
             <div class="learning-hub">
