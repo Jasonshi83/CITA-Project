@@ -102,11 +102,9 @@ function displayEvents(selectedCategory) {
                 deck.addEventListener('click', function (e) {
                 var target = e.target
                 
-                //document.getElementById("card-id"+i).style.display = "none";
-
+                //document.getElementById("card-id"+i).style.display = "none"
 
                 window.location.href = './EventDetail.php?id=' + idcard; 
-                
             
                 })
 
