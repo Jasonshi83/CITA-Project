@@ -36,6 +36,9 @@ function showEvents(selectedCategory){
     node5.className = 'card-body';
     var node6 = document.createElement("div");
     node6.className = 'row';
+    var node7 = document.createElement("a");
+    node7.className = 'stretched-link';
+    node7.href = '#';
 
     var nodedetail1 = document.createElement("div");
     nodedetail1.className = 'col-4';
@@ -54,13 +57,19 @@ function showEvents(selectedCategory){
     var detail2 = document.createElement("span");
     detail2.className = 'events-location';
 
+    var detailid = document.createElement("span")
+    //node.appendChild(detailid)
+    //detailid.appendChild()
 
     var imgevents = document.createElement("img");
     imgevents.className = 'img-events';
     imgevents.src = "images/interest-groups1.png";
     imgevents.alt = "image-events";
-    var title = document.createElement("h5");
+    // var title = document.createElement("h5");
+    // title.className = 'card-title';
+    var title = document.createElement("a");
     title.className = 'card-title';
+    title.href ="#";
     var content = document.createElement("p");
     content.className = 'card-text';
     var btn = document.createElement("a");
@@ -84,6 +93,20 @@ function showEvents(selectedCategory){
     var endnode = document.createTextNode(end);
     var category = "Category: "+schedules[i].category;
     var categorynode = document.createTextNode(category);
+    var id = schedules[i].id
+    //var idnode = document.createTextNode(id);
+    
+    node.addEventListener('click', function (e) {
+      var target = e.target
+      
+      //document.getElementById("card-id"+i).style.display = "none"
+
+      window.location.href = './EventDetail.php?id=' + id; 
+  
+      })
+    
+    
+    
 
     var btntext = "ATTENDING";
     var btnnode = document.createTextNode(btntext);
@@ -106,7 +129,10 @@ function showEvents(selectedCategory){
     // var detaildesc = schedules[i].detailDesc;
     // var detaildescnode = document.createTextNode(detaildesc);
 
+    
+    //node.appendChild(idnode)
     detail1.appendChild(startnode);
+  
     nodedetail1.appendChild(icon1);
     nodedetail1.appendChild(detail1);
 
@@ -143,10 +169,10 @@ function showEvents(selectedCategory){
     node2.appendChild(node3);
     node2.appendChild(node4);
     node.appendChild(node2);
+    // node.appendChild(node7);
     document.getElementsByClassName("upcoming-events")[0].appendChild(node);
     // document.getElementsByClassName("event-lists")[0].appendChild(node);
-
-  }
+    }
   }
   else{
     for(var i=0; i<schedules.length; i++){
@@ -163,6 +189,9 @@ function showEvents(selectedCategory){
     node5.className = 'card-body';
     var node6 = document.createElement("div");
     node6.className = 'row';
+    var node7 = document.createElement("a");
+    node7.className = 'stretched-link';
+    node7.href = '#';
 
     var nodedetail1 = document.createElement("div");
     nodedetail1.className = 'col-4';
@@ -260,7 +289,11 @@ function showEvents(selectedCategory){
     node2.appendChild(node3);
     node2.appendChild(node4);
     node.appendChild(node2);
+    // node.appendChild(node7);
     document.getElementsByClassName("upcoming-events")[0].appendChild(node);
+
+
+    
 
     }
   }

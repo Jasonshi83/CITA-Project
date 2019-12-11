@@ -1,10 +1,15 @@
 var selectedCategory;
 
 
+console.log(getQueryVariable('id'))
 
-getQueryVariable('id')
 displayEvents("myevents");
-displayMainEvent(getQueryVariable('id'))
+if (getQueryVariable('id') != false) {
+    displayMainEvent(getQueryVariable('id'))
+} else {
+    window.location.href = './EventDetail.php?id=' + 10
+}
+
 
 
 
@@ -29,7 +34,6 @@ function getQueryVariable(variable)
 }
 
 
-
 function displayMainEvent(EventID) {
     
     //if (EventID != false) {
@@ -39,17 +43,23 @@ function displayMainEvent(EventID) {
         oReq.onload = function() {
                 
         var schedules = JSON.parse(this.responseText);
-
-                var titletext = schedules[0].title
+        var mainEvent;
+        for (var i = 1; i < schedules.length; i++) {
+            if (schedules[i].id == EventID) {
+                mainEvent = schedules[i]
+                break;
+            }
+        }    
+                var titletext = mainEvent.title
                 var titleDiv = document.getElementById("maintitle").innerHTML = titletext
 
-                var start = "Start time: " + schedules[0].start;
+                var start = "Start time: " + mainEvent.start;
                 var startTimeDiv = document.getElementById("starttime").innerHTML = start
 
-                var desc = schedules[0].DetailedEventDesc;
+                var desc = mainEvent.DetailedEventDesc;
                 var descDiv = document.getElementById("detailsdesc")
                 
-                var locationdetail = schedules[0].address;
+                var locationdetail = mainEvent.address;
                 var locationdesc = document.getElementById("mainaddress").innerHTML = locationdetail
         
         } 
@@ -84,11 +94,17 @@ function displayEvents(selectedCategory) {
                 var locationdetail = schedules[i-1].address;
                 var locationdesc = document.getElementById("card-texti"+i).innerHTML = locationdetail
                 
+                var id = schedules[i-1].id
+                var idcard = document.getElementById(`card-id${i}`).innerHTML = id;
+                document.getElementById("card-id"+i).style.display = "none";
+
                 var deck = document.getElementById("card"+i)
                 deck.addEventListener('click', function (e) {
                 var target = e.target
+                
+                //document.getElementById("card-id"+i).style.display = "none"
 
-                window.location.href = 'http://localhost/CITA-NZ2/CITA-Project/EventDetail.php?id=' + titletext;
+                window.location.href = './EventDetail.php?id=' + idcard; 
             
                 })
 

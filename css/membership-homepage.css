@@ -185,7 +185,7 @@
   border-radius: 0;
 }
 
-/* upcomming event */
+/* upcoming event */
 .category-mode{
   text-align: center;
   /* background-color: pink; */
@@ -291,6 +291,26 @@
   margin-top: 20px;
 }
 
+/* .upcoming-block:hover{
+  border: 2px solid #8bd4e6;
+  opacity: 0.7;
+} */
+
+.upcoming-events .card-title{
+  font-size: 22px;
+  /* font-weight: bold; */
+  color: #000;
+  text-decoration: none;
+}
+
+.upcoming-events .card-body a:hover{
+  /* color: red; */
+  /* font-weight: bold; */
+  /* opacity: 0.5; */
+  background-color: #8bd4e6;
+  /* color: #fff; */
+}
+
 .img-events{
   object-fit: cover;
 }
@@ -331,10 +351,26 @@
 
 
 /* jobs */
+.jobs .card{
+  background-color: transparent;
+  border: none;
+  margin: 10px 0px;
+  margin-left: 20px;
+}
+
+/* .jobs .card:hover .job-block{ */
+.jobs .card:hover .col-lg-12{
+  /* background-color: #f2fbfd; */
+  /* background-color: #fff; */
+  opacity: 0.6;
+  /* border: 2px solid #6cc9e0; */
+}
+
 .job-block{
     /* background-color: pink; */
-    margin: 10px 0px;
-    margin-left: 30px;
+    /* margin: 10px 0px; */
+    /* margin-left: 30px; */
+    margin-left: 10px;
     padding: 20px 20px;
     position: relative;
     padding-bottom: 0px;
