@@ -1,7 +1,3 @@
-<?php
-session_start();
- ?>
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -247,10 +243,6 @@ session_start();
 
             </div>
 
-            <?php
-            // session_start();
-            $_SESSION["selectedEvent"] = "green";
-             ?>
 
             <div class="jobs">
               <h3 class="content-title">Jobs</h3>
