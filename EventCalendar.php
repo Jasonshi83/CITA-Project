@@ -1,3 +1,7 @@
+<?php
+// Start the session
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
@@ -108,6 +112,10 @@
         <div class="col-lg-6">
             <div class="event-content">
                 <div class="event-subcontent">
+                  <?php
+                  // Echo session variables that were set on previous page
+                  echo "Favorite color is " . $_SESSION["selectedEvent"] . ".<br>";
+                  ?>
                     <h4>Upcoming Events</h4>
                 </div>
 
