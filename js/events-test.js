@@ -57,6 +57,9 @@ function showEvents(selectedCategory){
     var detail2 = document.createElement("span");
     detail2.className = 'events-location';
 
+    var detailid = document.createElement("span")
+    //node.appendChild(detailid)
+    //detailid.appendChild()
 
     var imgevents = document.createElement("img");
     imgevents.className = 'img-events';
@@ -90,6 +93,20 @@ function showEvents(selectedCategory){
     var endnode = document.createTextNode(end);
     var category = "Category: "+schedules[i].category;
     var categorynode = document.createTextNode(category);
+    var id = schedules[i].id
+    //var idnode = document.createTextNode(id);
+    
+    node.addEventListener('click', function (e) {
+      var target = e.target
+      
+      //document.getElementById("card-id"+i).style.display = "none"
+
+      window.location.href = './EventDetail.php?id=' + id; 
+  
+      })
+    
+    
+    
 
     var btntext = "ATTENDING";
     var btnnode = document.createTextNode(btntext);
@@ -112,7 +129,10 @@ function showEvents(selectedCategory){
     // var detaildesc = schedules[i].detailDesc;
     // var detaildescnode = document.createTextNode(detaildesc);
 
+    
+    //node.appendChild(idnode)
     detail1.appendChild(startnode);
+  
     nodedetail1.appendChild(icon1);
     nodedetail1.appendChild(detail1);
 
@@ -152,7 +172,6 @@ function showEvents(selectedCategory){
     // node.appendChild(node7);
     document.getElementsByClassName("upcoming-events")[0].appendChild(node);
     // document.getElementsByClassName("event-lists")[0].appendChild(node);
-
     }
   }
   else{
@@ -283,6 +302,9 @@ function showEvents(selectedCategory){
     // node.appendChild(node7);
     document.getElementsByClassName("upcoming-events")[0].appendChild(node);
     // document.getElementsByClassName("event-lists")[0].appendChild(node);
+
+
+    
 
     }
   }
