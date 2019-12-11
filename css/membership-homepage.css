@@ -95,6 +95,10 @@
   max-width: 1180px;
   margin-bottom: 50px;
 }
+
+.content-title{
+  color: rgba(0,72,134,1);
+ }
 /* left sidebar */
 .login-profile{
   text-align: center;
