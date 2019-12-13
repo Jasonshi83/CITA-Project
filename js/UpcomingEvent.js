@@ -89,15 +89,6 @@ function displayEvents(selectedCategory) {
                 attendee3.className = 'attendees-avatar';
                 attendee3.src = "images/avatar-small3.png";
 
-                // var btn = document.createElement("a");
-                // btn.className = 'btn btn-primary read-more';
-                // btn.href ="#";
-
-                /*Added for button "apply"*/
-                // var btn_Apply = document.createElement("a");
-                // btn_Apply.className = 'btn btn-primary apply';
-                // btn_Apply.href ="#";
-                /*-----------------------*/
 
                 var subcontent1 = document.createElement("p");
                 subcontent1.className = 'card-subtext1';
@@ -109,26 +100,8 @@ function displayEvents(selectedCategory) {
                 var titletext = schedules[i].title;
                 var titlenode = document.createTextNode(titletext);
 
-                // var text = "Start time: "+schedules[i].start+"End time: "+schedules[i].end+"</br>"
-                // var textnode = document.createTextNode(text);
-                // var start = "Start time: "+schedules[i].start;
                 var start = "Start time: " + schedules[i].start;
                 var startnode = document.createTextNode(start);
-                // var end = "End time: "+schedules[i].end;
-                // var end = "End time: ";
-                // var endnode = document.createTextNode(end);
-                // var category = "Category: "+schedules[i].category;
-                // var category = "Category: ";
-                // var categorynode = document.createTextNode(category);
-
-                // var btntext = "READ MORE";
-                // var btnnode = document.createTextNode(btntext);
-                // btn.appendChild(btnnode);
-
-                /*Added text for button "apply"*/
-                // var btntext_Apply = "ATTENDING";
-                // var btnnode_Apply = document.createTextNode(btntext_Apply);
-                // btn_Apply.appendChild(btnnode_Apply);
 
                 var locationdetail = schedules[i].address;
                 var locatiodetailnnode = document.createTextNode(locationdetail);

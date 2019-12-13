@@ -73,7 +73,6 @@
             </div>
             </div>
          </div>
-1
     </div>
 
     <div class="row m-1" id="bodyrow">
