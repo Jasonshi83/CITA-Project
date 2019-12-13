@@ -120,16 +120,6 @@ function showEvents(selectedCategory){
     var location = schedules[i].address;
     var locationnode = document.createTextNode(location);
 
-    // var locationdetail = schedules[i].address;
-    // var locatiodetailnnode = document.createTextNode(locationdetail);
-    //
-    // var totalattendees = "Attendee Limit: " + schedules[i].AttendeeLimit;
-    // var totalnode = document.createTextNode(totalattendees);
-    //
-    // var detaildesc = schedules[i].detailDesc;
-    // var detaildescnode = document.createTextNode(detaildesc);
-
-    
     //node.appendChild(idnode)
     detail1.appendChild(startnode);
   
@@ -148,9 +138,6 @@ function showEvents(selectedCategory){
 
     title.appendChild(titlenode);
     subcontent1.appendChild(descriptionnode);
-    // subcontent1.appendChild(startnode);
-    // subcontent2.appendChild(endnode);
-    // subcontent3.appendChild(categorynode);
     content.appendChild(subcontent1);
     content.appendChild(subcontent2);
     content.appendChild(subcontent3);
@@ -160,7 +147,6 @@ function showEvents(selectedCategory){
     node5.appendChild(node6);
 
     node4.appendChild(node5);
-    // node3.appendChild(imgevents);
     node3.style.backgroundImage = "url('images/interest-groups1.png')";
     node3.style.backgroundRepeat = "no-repeat";
     node3.style.backgroundSize = "cover";
@@ -169,9 +155,7 @@ function showEvents(selectedCategory){
     node2.appendChild(node3);
     node2.appendChild(node4);
     node.appendChild(node2);
-    // node.appendChild(node7);
     document.getElementsByClassName("upcoming-events")[0].appendChild(node);
-    // document.getElementsByClassName("event-lists")[0].appendChild(node);
     }
   }
   else{
@@ -245,11 +229,9 @@ function showEvents(selectedCategory){
     var btnnode = document.createTextNode(btntext);
     btn.appendChild(btnnode);
 
-    // var description = "In this hands-on workshop, we’ll learn about Python programming and how to write your first script while enjoying pizza together! ";
     var description = schedules[i].detailDesc;
     var descriptionnode = document.createTextNode(description);
 
-    // var location = "Golding’s Free Dive 14 Leeds Street, Te Aro";
     var location = schedules[i].address;
     var locationnode = document.createTextNode(location);
 
@@ -335,18 +317,12 @@ function showEvents(selectedCategory){
   // oReq.send();
 }
 
-// function removeDummy() {
-//  var elem = document.getElementById('dummy');
-//  elem.parentNode.removeChild(elem);
-// }
 
 function refeshNewCategory(){
   for(var i=document.getElementsByClassName("upcoming-events")[0].childNodes.length-1; i>10; i--){
     var parent = document.getElementsByClassName("upcoming-events")[0];
     parent.removeChild(parent.childNodes[i]);
   }
-    // document.getElementsByClassName("user-name")[0].textContent = document.getElementsByClassName("upcoming-events")[0].childNodes.length;
-  // document.getElementsByClassName("upcoming-events")[0].removeChild(document.getElementsByClassName("upcoming-events")[0].childNodes[11]);
 }
 
 

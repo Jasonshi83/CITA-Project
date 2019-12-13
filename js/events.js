@@ -122,7 +122,6 @@ function showEvents(){
     node2.appendChild(node4);
     node.appendChild(node2);
     document.getElementsByClassName("upcoming-events")[0].appendChild(node);
-    // document.getElementsByClassName("event-lists")[0].appendChild(node);
 
   }
   };

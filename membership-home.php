@@ -5,18 +5,11 @@
     <title></title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="https://uicdn.toast.com/tui.time-picker/latest/tui-time-picker.css">
-    <link rel="stylesheet" type="text/css" href="https://uicdn.toast.com/tui.date-picker/latest/tui-date-picker.css">
-    <link rel="stylesheet" type="text/css" href="./dist/tui-calendar.css">
-    <link rel="stylesheet" type="text/css" href="./css/default.css">
-    <link rel="stylesheet" type="text/css" href="./css/icons.css"> -->
-    <!-- <link rel="stylesheet" href="./css/style.css"> -->
     <link rel="stylesheet" href="./css/membership-homepage.css">
   </head>
   <body>
     <!-- <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="navbar"> -->
-    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
       <div class="container">
         <a class="navbar-brand" href="#"><img
             class="logo"
@@ -52,16 +45,6 @@
     </nav>
 
     <div class="container-fluid">
-      <!-- <div class="container container-content">
-        <div class="row row-content-wrap">
-          <div class="col">
-            1 of 2
-          </div>
-          <div class="col">
-            2 of 2
-          </div>
-        </div>
-      </div> -->
     </div>
     <div class="container container-content">
       <div class="row row-content-wrap">
@@ -162,86 +145,6 @@
                   <!-- </div> -->
                 </div>
               </div>
-
-              <!-- card with footer -->
-              <!-- <div class="card">
-                <div class="row no-gutters">
-                    <div class="col-auto">
-                        <img src=".\css\assets\interest-groups1.png" class="img-fluid" alt="">
-                    </div>
-                    <div class="col">
-                        <div class="card-block px-2">
-                            <h4 class="card-title">Title</h4>
-                            <p class="card-text">Description</p>
-                            <a href="#" class="btn btn-primary">BUTTON</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-footer w-100 text-muted">
-                    Footer stating cats are CUTE little animals
-                </div>
-              </div> -->
-
-
-              <!-- <div class="row upcoming-block">
-                <div class="col-lg-12">
-                  <div class="row">
-                    <div class="col-lg-4 image-left">
-                        <img src=".\css\assets\interest-groups1.png" alt="Card image cap">
-                    </div>
-                    <div class="col-lg-8">
-                      <h3>Pizza & Python</h3>
-                      <p>In this hands-on workshop, we’ll learn about Python programming and how to
-                          write your first script while enjoying pizza together! </p>
-                      <div class="row">
-                        <div class="col-lg-4">
-                          <i class="far fa-calendar"></i>
-                          <span>Fri, 13th December 2019 16:00 - 18:00 </span>
-                        </div>
-                        <div class="col-lg-4">
-                          <i class="fas fa-map-marker-alt"></i>
-                          <span>Golding’s Free Dive 14 Leeds Street, Te Aro </span>
-                        </div>
-                        <div class="col-lg-4">
-                          <button type="button" name="button">ATTENDING</button>
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="row upcoming-block">
-                <div class="col-lg-12">
-                  <div class="row">
-                    <div class="col-lg-4 image-left">
-                        <img src=".\css\assets\interest-groups1.png" alt="Card image cap">
-                    </div>
-                    <div class="col-lg-8">
-                      <h3>Pizza & Python</h3>
-                      <p>In this hands-on workshop, we’ll learn about Python programming and how to
-                          write your first script while enjoying pizza together! </p>
-                      <div class="row">
-                        <div class="col-lg-4">
-                          <i class="far fa-calendar"></i>
-                          <span>Fri, 13th December 2019 16:00 - 18:00 </span>
-                        </div>
-                        <div class="col-lg-4">
-                          <i class="fas fa-map-marker-alt"></i>
-                          <span>Golding’s Free Dive 14 Leeds Street, Te Aro </span>
-                        </div>
-                        <div class="col-lg-4">
-                          <button type="button" name="button">ATTENDING</button>
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-
-
             </div>
 
               <div class="read-more">
@@ -489,112 +392,8 @@
     }
   </script>
 
-
-  <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-  <script src="https://uicdn.toast.com/tui.code-snippet/latest/tui-code-snippet.min.js"></script>
-  <script src="https://uicdn.toast.com/tui.dom/v3.0.0/tui-dom.js"></script>
-  <script src="https://uicdn.toast.com/tui.time-picker/latest/tui-time-picker.min.js"></script>
-  <script src="https://uicdn.toast.com/tui.date-picker/latest/tui-date-picker.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/chance/1.0.13/chance.min.js"></script>
-  <script src="./dist/tui-calendar.js"></script>
-  <script src="./js/data/calendars.js"></script>
-  <script src="./js/data/schedules.js"></script>
-  <script type="text/javascript" class="code-js">
-  // register templates
-  const templates = {
-    popupIsAllDay: function() {
-      return 'All Day';
-    },
-    popupStateFree: function() {
-      return 'Free';
-    },
-    popupStateBusy: function() {
-      return 'Busy';
-    },
-    titlePlaceholder: function() {
-      return 'Subject';
-    },
-    locationPlaceholder: function() {
-      return 'Location';
-    },
-    startDatePlaceholder: function() {
-      return 'Start date';
-    },
-    endDatePlaceholder: function() {
-      return 'End date';
-    },
-    popupSave: function() {
-      return 'Save';
-    },
-    popupUpdate: function() {
-      return 'Update';
-    },
-    popupDetailDate: function(isAllDay, start, end) {
-      var isSameDate = moment(start).isSame(end);
-      var endFormat = (isSameDate ? '' : 'YYYY.MM.DD ') + 'hh:mm a';
-
-      if (isAllDay) {
-        return moment(start).format('YYYY.MM.DD') + (isSameDate ? '' : ' - ' + moment(end).format('YYYY.MM.DD'));
-      }
-
-      return (moment(start).format('YYYY.MM.DD hh:mm a') + ' - ' + moment(end).format(endFormat));
-    },
-    popupDetailLocation: function(schedule) {
-      return 'Location : ' + schedule.location;
-    },
-    popupDetailUser: function(schedule) {
-      return 'User : ' + (schedule.attendees || []).join(', ');
-    },
-    popupDetailState: function(schedule) {
-      return 'State : ' + schedule.state || 'Busy';
-    },
-    popupDetailRepeat: function(schedule) {
-      return 'Repeat : ' + schedule.recurrenceRule;
-    },
-    popupDetailBody: function(schedule) {
-      return 'Body : ' + schedule.body;
-    },
-    popupEdit: function() {
-      return 'Edit';
-    },
-    popupDelete: function() {
-      return 'Delete';
-    }
-  };
-
-  var cal = new tui.Calendar('#calendar', {
-    defaultView: 'month',
-    template: templates,
-    useCreationPopup: false,
-    useDetailPopup: true
-  });
-  </script> -->
-  <!-- <script src="./js/default.js"></script> -->
-
-
-  <!-- <script type="text/javascript">
-    function loadJson2(){
-      var xmlhttp = new XMLHttpRequest();
-      xmlhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-          var myObj = JSON.parse(this.responseText);
-          document.getElementsByClassName("event-details").innerHTML = myObj.events[1].title+"</br>"+myObj.events[1].start+"</br>"+myObj.events[1].end;
-        }
-      };
-      xmlhttp.open("GET", "DBTesting.php", true);
-      xmlhttp.send();
-    }
-  </script> -->
   <script src="https://kit.fontawesome.com/bdfac7b89e.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <!-- <script src="./js/events.js"></script> -->
   <script src="./js/categorySelected.js"></script>
   <script src="./js/events-test.js"></script>
 </html>

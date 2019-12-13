@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> -->
     <link rel="stylesheet" type="text/css" href="https://uicdn.toast.com/tui.time-picker/latest/tui-time-picker.css">
     <link rel="stylesheet" type="text/css" href="https://uicdn.toast.com/tui.date-picker/latest/tui-date-picker.css">
     <link rel="stylesheet" type="text/css" href="./dist/tui-calendar.css">
@@ -79,16 +78,6 @@
       attendee3.className = 'attendees-avatar';
       attendee3.src = "images/avatar-small3.png";
 
-      // var btn = document.createElement("a");
-      // btn.className = 'btn btn-primary read-more';
-      // btn.href ="#";
-
-      /*Added for button "apply"*/
-      // var btn_Apply = document.createElement("a");
-      // btn_Apply.className = 'btn btn-primary apply';
-      // btn_Apply.href ="#";
-      /*-----------------------*/
-
       var subcontent1 = document.createElement("p");
       subcontent1.className = 'card-subtext1';
       var subcontent2 = document.createElement("p");
@@ -100,26 +89,8 @@
       var titletext = "Headline of the event";
       var titlenode = document.createTextNode(titletext);
 
-      // var text = "Start time: "+schedules[i].start+"End time: "+schedules[i].end+"</br>"
-      // var textnode = document.createTextNode(text);
-      // var start = "Start time: "+schedules[i].start;
       var start = "Start time: "+schedules[i].start;
       var startnode = document.createTextNode(start);
-      // var end = "End time: "+schedules[i].end;
-      // var end = "End time: ";
-      // var endnode = document.createTextNode(end);
-      // var category = "Category: "+schedules[i].category;
-      // var category = "Category: ";
-      // var categorynode = document.createTextNode(category);
-
-      // var btntext = "READ MORE";
-      // var btnnode = document.createTextNode(btntext);
-      // btn.appendChild(btnnode);
-
-      /*Added text for button "apply"*/
-      // var btntext_Apply = "ATTENDING";
-      // var btnnode_Apply = document.createTextNode(btntext_Apply);
-      // btn_Apply.appendChild(btnnode_Apply);
 
       var locationdetail = "Wellington";
       var locatiodetailnnode = document.createTextNode(locationdetail);
